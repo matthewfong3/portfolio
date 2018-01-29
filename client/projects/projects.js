@@ -64,10 +64,6 @@ const showImg = (sI) => {
 
 // Game Projects
 const BunkR = () => {
-  /*let slidesStyle = {
-    display: "block"
-  };*/
-  
   return(
     <div className="reactComponent">
       <div id="slider-container">
@@ -182,22 +178,25 @@ const Models = () => {
           <img id="img" src="/assets/images/creepy3.png" alt="creepy 3" width="100%" height="100%"/>
         </div>
         <div className="slides fade">
-          <img id="img" src="/assets/images/halosniper.png" alt="halo sniper" width="100%" height="100%"/>
-        </div>
-        <div className="slides fade">
-          <img id="img" src="/assets/images/kunai.png" alt="kunai" width="100%" height="100%"/>
-        </div>
-        <div className="slides fade">
-          <img id="img" src="/assets/images/m9bayo.png" alt="m9bayonet knife" width="100%" height="100%"/>
+          <img id="img" src="/assets/images/ironman.png" alt="Iron Man helmet" width="100%" height="100%"/>
         </div>
         <div className="slides fade">
           <img id="img" src="/assets/images/starwarsls.png" alt="star wars" width="100%" height="100%"/>
         </div>
         <div className="slides fade">
+          <img id="img" src="/assets/images/halosniper.png" alt="halo sniper" width="100%" height="100%"/>
+        </div>
+        <div className="slides fade">
+          <img id="img" src="/assets/images/m9bayo.png" alt="m9bayonet knife" width="100%" height="100%"/>
+        </div>
+        <div className="slides fade">
           <img id="img" src="/assets/images/aotsword.png" alt="Attack on Titan Sword" width="100%" height="100%"/>
         </div>
         <div className="slides fade">
-          <img id="img" src="/assets/images/ironman.png" alt="Iron Man helmet" width="100%" height="100%"/>
+          <img id="img" src="/assets/images/saoasunarapier.png" alt="SAO: Asuna's rapier" width="100%" height="100%"/>
+        </div>
+        <div className="slides fade">
+          <img id="img" src="/assets/images/kunai.png" alt="kunai" width="100%" height="100%"/>
         </div>
         
         <a className="prev">&#10094;</a>
@@ -218,6 +217,7 @@ const Models = () => {
         <span className="dots" data-i="9"></span>
         <span className="dots" data-i="10"></span>
         <span className="dots" data-i="11"></span>
+        <span className="dots" data-i="12"></span>
       </div>
       <h3>3D models</h3>
       <section className="left">

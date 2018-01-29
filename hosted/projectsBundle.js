@@ -76,10 +76,6 @@ var showImg = function showImg(sI) {
 
 // Game Projects
 var BunkR = function BunkR() {
-  /*let slidesStyle = {
-    display: "block"
-  };*/
-
   return React.createElement(
     'div',
     { className: 'reactComponent' },
@@ -343,17 +339,7 @@ var Models = function Models() {
       React.createElement(
         'div',
         { className: 'slides fade' },
-        React.createElement('img', { id: 'img', src: '/assets/images/halosniper.png', alt: 'halo sniper', width: '100%', height: '100%' })
-      ),
-      React.createElement(
-        'div',
-        { className: 'slides fade' },
-        React.createElement('img', { id: 'img', src: '/assets/images/kunai.png', alt: 'kunai', width: '100%', height: '100%' })
-      ),
-      React.createElement(
-        'div',
-        { className: 'slides fade' },
-        React.createElement('img', { id: 'img', src: '/assets/images/m9bayo.png', alt: 'm9bayonet knife', width: '100%', height: '100%' })
+        React.createElement('img', { id: 'img', src: '/assets/images/ironman.png', alt: 'Iron Man helmet', width: '100%', height: '100%' })
       ),
       React.createElement(
         'div',
@@ -363,12 +349,27 @@ var Models = function Models() {
       React.createElement(
         'div',
         { className: 'slides fade' },
+        React.createElement('img', { id: 'img', src: '/assets/images/halosniper.png', alt: 'halo sniper', width: '100%', height: '100%' })
+      ),
+      React.createElement(
+        'div',
+        { className: 'slides fade' },
+        React.createElement('img', { id: 'img', src: '/assets/images/m9bayo.png', alt: 'm9bayonet knife', width: '100%', height: '100%' })
+      ),
+      React.createElement(
+        'div',
+        { className: 'slides fade' },
         React.createElement('img', { id: 'img', src: '/assets/images/aotsword.png', alt: 'Attack on Titan Sword', width: '100%', height: '100%' })
       ),
       React.createElement(
         'div',
         { className: 'slides fade' },
-        React.createElement('img', { id: 'img', src: '/assets/images/ironman.png', alt: 'Iron Man helmet', width: '100%', height: '100%' })
+        React.createElement('img', { id: 'img', src: '/assets/images/saoasunarapier.png', alt: 'SAO: Asuna\'s rapier', width: '100%', height: '100%' })
+      ),
+      React.createElement(
+        'div',
+        { className: 'slides fade' },
+        React.createElement('img', { id: 'img', src: '/assets/images/kunai.png', alt: 'kunai', width: '100%', height: '100%' })
       ),
       React.createElement(
         'a',
@@ -396,7 +397,8 @@ var Models = function Models() {
       React.createElement('span', { className: 'dots', 'data-i': '8' }),
       React.createElement('span', { className: 'dots', 'data-i': '9' }),
       React.createElement('span', { className: 'dots', 'data-i': '10' }),
-      React.createElement('span', { className: 'dots', 'data-i': '11' })
+      React.createElement('span', { className: 'dots', 'data-i': '11' }),
+      React.createElement('span', { className: 'dots', 'data-i': '12' })
     ),
     React.createElement(
       'h3',
