@@ -112,22 +112,11 @@ nav{
   margin-left: 2.5%;
 }
 
-#leftAbout, #leftContacts, #rightAbout, #rightContacts{
+#leftAbout, #rightAbout, #leftContacts, #rightContacts{
   position: relative; 
-}
-
-#leftAbout, #leftContacts{
   top: 50%;
   transform: translateY(-50%);
   /*border-right: thick solid #000;*/
-}
-
-#rightAbout{
-  transform: translateY(110%);
-}
-
-#rightContacts{
-  transform: translateY(290%);
 }
 
 #contacts{
