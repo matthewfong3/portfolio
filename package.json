@@ -1,0 +1,44 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "engines": {
+    "node": "8.4.0",
+    "npm": "5.3.0"
+  },
+  "description": "my portfolio website",
+  "main": "./server/app.js",
+  "scripts": {
+    "test": "echo \"Tests complete\"",
+    "start": "node ./server/app.js",
+    "pretest": "eslint ./server --fix",
+    "nodemon": "nodemon --watch ./server ./server/app.js",
+    "buildAppBundle": "babel ./client/app ./client/helper --presets react --out-file ./hosted/appBundle.js",
+    "buildProjectsBundle": "babel ./client/projects ./client/helper --presets react --out-file ./hosted/projectsBundle.js",
+    "buildNotFoundBundle": "babel ./client/helper --presets react --out-file ./hosted/notFoundBundle.js",
+    "build": "npm run buildAppBundle && npm run buildProjectsBundle && npm run buildNotFoundBundle",
+    "watchAppBundle": "babel --watch ./client/app ./client/helper --presets react --out-file ./hosted/appBundle.js",
+    "watchProjectsBundle": "babel --watch ./client/projects ./client/helper --presets react --out-file ./hosted/projectsBundle.js",
+    "watchNotFoundBundle": "babel --watch ./client/helper ./client/notFound --presets react --out-file ./hosted/notFoundBundle.js",
+    "watch": "npm run watchAppBundle && npm run watchProjectsBundle && npm run watchNotFoundBundle"
+  },
+  "author": "Matthew Fong",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.14.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "nodemon": "^1.14.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "compression": "^1.6.1",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "helmet": "^1.3.0",
+    "serve-favicon": "^2.3.0",
+    "underscore": "^1.8.3"
+  }
+}
