@@ -15,7 +15,12 @@ const getProject = (req, res) => {
   res.json({ redirect: '/projectsPage', url: req.body.url });
 };
 
+const getResume = (req, res) => {
+  res.render('resume');
+};
+
 module.exports.appPage = appPage;
 module.exports.projectsPage = projectsPage;
 module.exports.notFound = notFound;
 module.exports.getProject = getProject;
+module.exports.ResumePage = getResume;

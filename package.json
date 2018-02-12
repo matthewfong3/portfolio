@@ -19,6 +19,7 @@
     "watchAppBundle": "babel --watch ./client/app ./client/helper --presets react --out-file ./hosted/appBundle.js",
     "watchProjectsBundle": "babel --watch ./client/projects ./client/helper --presets react --out-file ./hosted/projectsBundle.js",
     "watchNotFoundBundle": "babel --watch ./client/helper ./client/notFound --presets react --out-file ./hosted/notFoundBundle.js",
+    "watchResumeBundle": "babel --watch ./client/helper ./client/resume --presets react --out-file ./hosted/resumeBundle.js",
     "watch": "npm run watchAppBundle && npm run watchProjectsBundle && npm run watchNotFoundBundle"
   },
   "author": "Matthew Fong",

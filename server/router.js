@@ -3,6 +3,7 @@ const controllers = require('./controllers');
 const router = (app) => {
   app.post('/getProject', controllers.getProject);
   app.get('/projectsPage', controllers.projectsPage);
+  app.get('/resume', controllers.ResumePage);
   app.get('/', controllers.appPage);
   app.get('/*', controllers.notFound);
 };
