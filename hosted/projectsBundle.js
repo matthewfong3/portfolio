@@ -2590,6 +2590,16 @@ var init = function init() {
   // setup onHover events for icons in nav bar
   navOnHover();
 
+  // set up dropdown menu for responsive view
+  var dropdown = document.querySelector("#dropdown");
+  var respMenu = document.querySelector("#responsiveMenu");
+  if (dropdown && respMenu) {
+    respMenu.style.display = "none";
+    dropdown.addEventListener("click", function () {
+      return toggleDropdownMenu(respMenu);
+    });
+  }
+
   var URL = localStorage['url'];
 
   URL = JSON.parse(URL);
@@ -2669,6 +2679,7 @@ var navOnHover = function navOnHover() {
   var twitter = document.querySelector("#shortcutTwitter");
   var linkedIn = document.querySelector("#shortcutLinkedIn");
   var facebook = document.querySelector("#shortcutFB");
+  //const dropdown = document.querySelector("#dropdown");
 
   face.addEventListener("mouseover", function () {
     return face.src = "/assets/images/face.png";
@@ -2697,6 +2708,18 @@ var navOnHover = function navOnHover() {
   facebook.addEventListener("mouseout", function () {
     return facebook.src = "/assets/images/facebookGray.png";
   });
+
+  /*if(dropdown){
+    dropdown.addEventListener("mouseover", () => dropdown.src="/assets/images/dropdownHover.png");
+    dropdown.addEventListener("mouseout", () => dropdown.src="/assets/images/dropdown.png");
+  }*/
+};
+
+// function that handles dropdown menu animation & display
+var toggleDropdownMenu = function toggleDropdownMenu(respMenu) {
+  console.log("slide in from left to right");
+
+  if (respMenu.style.display === "none") respMenu.style.display = "block";else respMenu.style.display = "none";
 };
 
 // function that handles smooth scrolling 
@@ -2710,6 +2733,9 @@ var smoothScrolling = function smoothScrolling() {
     //  }
     //  this.classList.add('selected');
     //}
+
+    // hide dropdown menu once a link is clicked
+    console.log("hide dropdown menu once a link is clicked");
 
     $('html, body').animate({
       scrollTop: $($(this).attr('href')).offset().top

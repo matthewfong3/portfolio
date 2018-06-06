@@ -4,6 +4,7 @@ const navOnHover = () => {
   const twitter = document.querySelector("#shortcutTwitter");
   const linkedIn = document.querySelector("#shortcutLinkedIn");
   const facebook = document.querySelector("#shortcutFB");
+  //const dropdown = document.querySelector("#dropdown");
   
   face.addEventListener("mouseover", () => face.src="/assets/images/face.png");
   face.addEventListener("mouseout", () => face.src="/assets/images/faceGray.png");
@@ -16,6 +17,21 @@ const navOnHover = () => {
   
   facebook.addEventListener("mouseover", () => facebook.src="/assets/images/facebook.png");
   facebook.addEventListener("mouseout", () => facebook.src="/assets/images/facebookGray.png");
+  
+  /*if(dropdown){
+    dropdown.addEventListener("mouseover", () => dropdown.src="/assets/images/dropdownHover.png");
+    dropdown.addEventListener("mouseout", () => dropdown.src="/assets/images/dropdown.png");
+  }*/
+};
+
+// function that handles dropdown menu animation & display
+const toggleDropdownMenu = (respMenu) => {
+  console.log("slide in from left to right");
+  
+  if(respMenu.style.display === "none") 
+    respMenu.style.display = "block";
+  else 
+    respMenu.style.display = "none";
 };
 
 // function that handles smooth scrolling 
@@ -29,6 +45,9 @@ const smoothScrolling = () => {
     //  }
     //  this.classList.add('selected');
     //}
+    
+    // hide dropdown menu once a link is clicked
+    console.log("hide dropdown menu once a link is clicked");
     
     $('html, body').animate({
         scrollTop: $( $(this).attr('href') ).offset().top
