@@ -328,7 +328,7 @@ footer p{
 }
 
 /*Media Queries*/
-@media only screen and (max-width: 720px){
+@media only screen and (max-width: 750px){
   /* - nav - */
   nav ul{
     display: none;
