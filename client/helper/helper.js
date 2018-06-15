@@ -26,12 +26,16 @@ const navOnHover = () => {
 
 // function that handles dropdown menu animation & display
 const toggleDropdownMenu = (respMenu) => {
-  console.log("slide in from left to right");
+  $("#responsiveMenu").toggle("slide");
   
-  if(respMenu.style.display === "none") 
-    respMenu.style.display = "block";
-  else 
-    respMenu.style.display = "none";
+  //if(respMenu.style.display === "none"){
+    //$("#responsiveMenu").show("slide", {direction: "right"}, 1000);
+    //respMenu.style.display = "block";
+  //} 
+  //else{
+    //$("#responsiveMenu").show("slide", {direction: "left"}, 1000);
+    //respMenu.style.display = "none"; 
+  //}
 };
 
 // function that handles smooth scrolling 
@@ -47,7 +51,8 @@ const smoothScrolling = () => {
     //}
     
     // hide dropdown menu once a link is clicked
-    console.log("hide dropdown menu once a link is clicked");
+    //console.log("hide dropdown menu once a link is clicked");
+    $("#responsiveMenu").toggle("slide");
     
     $('html, body').animate({
         scrollTop: $( $(this).attr('href') ).offset().top

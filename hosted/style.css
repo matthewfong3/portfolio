@@ -341,9 +341,14 @@ footer p{
     margin-bottom: 5px;
   }
   
+  #dropdown:active{
+    content: url("/assets/images/dropdownHover.png");
+  }
+  
   #responsiveMenu{
     position: fixed;
     z-index: 1;
+    height: 100%;
   }
   
   #responsiveMenu ul{
@@ -357,11 +362,13 @@ footer p{
   #responsiveMenu ul li{
     background-color: #eee;
     border-bottom: 1px solid #555;
+    padding: 0;
     /*border-right: 1px solid #555;*/
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 20px;
     padding-right: 20px;
+    
   }
   
   #responsiveMenu ul li a{

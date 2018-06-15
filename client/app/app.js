@@ -40,7 +40,7 @@ const init = () => {
   const dropdown = document.querySelector("#dropdown");
   const respMenu = document.querySelector("#responsiveMenu");
   if(dropdown && respMenu) {
-    respMenu.style.display = "none";
+    //respMenu.style.display = "none";
     dropdown.addEventListener("click", () => toggleDropdownMenu(respMenu));
   }
 };
