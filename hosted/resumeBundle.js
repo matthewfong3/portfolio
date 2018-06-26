@@ -70,7 +70,7 @@ var smoothScrolling = function smoothScrolling() {
 
     // hide dropdown menu once a link is clicked
     //console.log("hide dropdown menu once a link is clicked");
-    $("#responsiveMenu").toggle("slide");
+    //$("#responsiveMenu").toggle("slide");
 
     $('html, body').animate({
       scrollTop: $($(this).attr('href')).offset().top
