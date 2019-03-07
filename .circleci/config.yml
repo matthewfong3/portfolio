@@ -26,8 +26,6 @@ jobs:
           # fallback to using the latest cache if no exact match is found
           - v1-dependencies-
           
-      - run: yarn global add greenkeeper-lockfile@1
-      - run: yarn greenkeeper-lockfile-update
       - run: yarn install
 
       - save_cache:
@@ -37,4 +35,3 @@ jobs:
         
       # run tests!
       - run: yarn test
-      - run: yarn greenkeeper-lockfile-upload
