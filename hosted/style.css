@@ -310,8 +310,14 @@ footer p{
   float: right;
 }
 
+/*
 #resumeContent #objective, #resumeContent #objectiveDesc{
   display: inline;
+}
+*/
+
+#resumeContent span{
+  font-weight: bold;
 }
 
 #resumeContent .eduinfo, #resumeContent #experience h5{
