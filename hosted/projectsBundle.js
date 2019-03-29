@@ -147,12 +147,39 @@ var BunkR = function BunkR() {
       React.createElement(
         'h4',
         null,
+        'Role:'
+      ),
+      React.createElement(
+        'p',
+        null,
+        'Programmer, Designer & Animator'
+      ),
+      React.createElement(
+        'p',
+        null,
+        '- Programmed some core mechanics/functionality of the game, such as basic player & enemy movement, shooting, collision ',
+        React.createElement('br', null),
+        '- Programmed and implemented different types of weapons and health kit spawns ',
+        React.createElement('br', null),
+        '- Assisted with implementation of bomb/nuke logic ',
+        React.createElement('br', null),
+        '- Designed and tweaked character sprites ',
+        React.createElement('br', null),
+        '- Designed GUI/UI elements and game menus'
+      )
+    ),
+    React.createElement(
+      'section',
+      { className: 'right' },
+      React.createElement(
+        'h4',
+        null,
         'Duration'
       ),
       React.createElement(
         'p',
         null,
-        'Less than 6 months'
+        'Less than 2 months'
       ),
       React.createElement(
         'h4',
@@ -164,20 +191,6 @@ var BunkR = function BunkR() {
         null,
         '3'
       ),
-      React.createElement(
-        'h4',
-        null,
-        'Role:'
-      ),
-      React.createElement(
-        'p',
-        null,
-        'Programmer, Designer & Animator'
-      )
-    ),
-    React.createElement(
-      'section',
-      { className: 'right' },
       React.createElement(
         'h4',
         null,
@@ -259,17 +272,7 @@ var MarioKart = function MarioKart() {
       React.createElement(
         'p',
         null,
-        'Less than 6 months'
-      ),
-      React.createElement(
-        'h4',
-        null,
-        'Team size:'
-      ),
-      React.createElement(
-        'p',
-        null,
-        '1'
+        'Less than 2 months'
       ),
       React.createElement(
         'h4',
@@ -280,11 +283,28 @@ var MarioKart = function MarioKart() {
         'p',
         null,
         'Programmer'
+      ),
+      React.createElement(
+        'p',
+        null,
+        '- Programmed & implemented the logic behind autonomous behavior (simple path finding and queueing) for Mario characters ',
+        React.createElement('br', null),
+        '- Designed a simple racetrack level for Mario characters to showcase simple autonomous behavior'
       )
     ),
     React.createElement(
       'section',
       { className: 'right' },
+      React.createElement(
+        'h4',
+        null,
+        'Team size:'
+      ),
+      React.createElement(
+        'p',
+        null,
+        '1'
+      ),
       React.createElement(
         'h4',
         null,
@@ -549,12 +569,35 @@ var FairlyOddParents = function FairlyOddParents() {
       React.createElement(
         'h4',
         null,
+        'Role:'
+      ),
+      React.createElement(
+        'p',
+        null,
+        'Designer'
+      ),
+      React.createElement(
+        'p',
+        null,
+        '- Designed the GUI/UI elements (icons, buttons, pop-up alerts) ',
+        React.createElement('br', null),
+        '- Designed in-game HUD elements ',
+        React.createElement('br', null),
+        '- Designed game menus'
+      )
+    ),
+    React.createElement(
+      'section',
+      { className: 'right' },
+      React.createElement(
+        'h4',
+        null,
         'Duration'
       ),
       React.createElement(
         'p',
         null,
-        'Less than 6 months'
+        'Less than 2 months'
       ),
       React.createElement(
         'h4',
@@ -566,20 +609,6 @@ var FairlyOddParents = function FairlyOddParents() {
         null,
         '1'
       ),
-      React.createElement(
-        'h4',
-        null,
-        'Role:'
-      ),
-      React.createElement(
-        'p',
-        null,
-        'Designer'
-      )
-    ),
-    React.createElement(
-      'section',
-      { className: 'right' },
       React.createElement(
         'h4',
         null,
@@ -679,8 +708,31 @@ var BombsAway = function BombsAway() {
       React.createElement(
         'p',
         null,
-        'Less than 6 months'
+        '5 weeks'
       ),
+      React.createElement(
+        'h4',
+        null,
+        'Role:'
+      ),
+      React.createElement(
+        'p',
+        null,
+        'Programmer & Level Designer'
+      ),
+      React.createElement(
+        'p',
+        null,
+        '- Programmed & implemented in-game camera and context-menu ',
+        React.createElement('br', null),
+        '- Designed GUI/UI elements and game menus ',
+        React.createElement('br', null),
+        '- Designed layout of game levels'
+      )
+    ),
+    React.createElement(
+      'section',
+      { className: 'right' },
       React.createElement(
         'h4',
         null,
@@ -691,20 +743,6 @@ var BombsAway = function BombsAway() {
         null,
         '5'
       ),
-      React.createElement(
-        'h4',
-        null,
-        'Role:'
-      ),
-      React.createElement(
-        'p',
-        null,
-        'Programmer (context-menu, camera) & Level Designer'
-      )
-    ),
-    React.createElement(
-      'section',
-      { className: 'right' },
       React.createElement(
         'h4',
         null,
@@ -792,8 +830,31 @@ var DynamicDash = function DynamicDash() {
       React.createElement(
         'p',
         null,
-        'Less than 6 months'
+        '5 weeks'
       ),
+      React.createElement(
+        'h4',
+        null,
+        'Role:'
+      ),
+      React.createElement(
+        'p',
+        null,
+        'Programmer & Level Designer'
+      ),
+      React.createElement(
+        'p',
+        null,
+        '- Programmed & implemented some core mechanics of the game, such as Power-Up abilities ',
+        React.createElement('br', null),
+        '- Designed GUI/UI elements and game menus ',
+        React.createElement('br', null),
+        '- Designed layout of game levels'
+      )
+    ),
+    React.createElement(
+      'section',
+      { className: 'right' },
       React.createElement(
         'h4',
         null,
@@ -804,20 +865,6 @@ var DynamicDash = function DynamicDash() {
         null,
         '5'
       ),
-      React.createElement(
-        'h4',
-        null,
-        'Role:'
-      ),
-      React.createElement(
-        'p',
-        null,
-        'Programmer (power-up abilities) & Level Designer'
-      )
-    ),
-    React.createElement(
-      'section',
-      { className: 'right' },
       React.createElement(
         'h4',
         null,
@@ -923,8 +970,31 @@ var UnfinishedBus = function UnfinishedBus() {
       React.createElement(
         'p',
         null,
-        'Less than 6 months'
+        '15 weeks'
       ),
+      React.createElement(
+        'h4',
+        null,
+        'Role:'
+      ),
+      React.createElement(
+        'p',
+        null,
+        '3D Modeler, Programmer, Designer'
+      ),
+      React.createElement(
+        'p',
+        null,
+        '- Modeled all in-game models, except for Ghost model ',
+        React.createElement('br', null),
+        '- Programmed and implemented in-game camera logic ',
+        React.createElement('br', null),
+        '- Designed GUI/UI elements and game menus'
+      )
+    ),
+    React.createElement(
+      'section',
+      { className: 'right' },
       React.createElement(
         'h4',
         null,
@@ -935,20 +1005,6 @@ var UnfinishedBus = function UnfinishedBus() {
         null,
         '5'
       ),
-      React.createElement(
-        'h4',
-        null,
-        'Role:'
-      ),
-      React.createElement(
-        'p',
-        null,
-        '3D Modeler, Programmer (Camera) & Designer, UI Designer'
-      )
-    ),
-    React.createElement(
-      'section',
-      { className: 'right' },
       React.createElement(
         'h4',
         null,
@@ -1036,8 +1092,33 @@ var DefendSina = function DefendSina() {
       React.createElement(
         'p',
         null,
-        'Xcode & Photoshop'
+        'Xcode, Photoshop & Audacity'
       ),
+      React.createElement(
+        'h4',
+        null,
+        'Role:'
+      ),
+      React.createElement(
+        'p',
+        null,
+        'Programmer & Designer'
+      ),
+      React.createElement(
+        'p',
+        null,
+        '- Programmed core mechanics/functionality of the game, such as basic player shooting ',
+        React.createElement('br', null),
+        '- Designed emitter effects for power-up abilities ',
+        React.createElement('br', null),
+        '- Designed GUI/UI elements and game menus ',
+        React.createElement('br', null),
+        '- Lead sound designer (Sound Effects/Foley Art, Background Music)'
+      )
+    ),
+    React.createElement(
+      'section',
+      { className: 'right' },
       React.createElement(
         'h4',
         null,
@@ -1046,7 +1127,7 @@ var DefendSina = function DefendSina() {
       React.createElement(
         'p',
         null,
-        'Less than 6 months'
+        'Less than 2 months'
       ),
       React.createElement(
         'h4',
@@ -1058,20 +1139,6 @@ var DefendSina = function DefendSina() {
         null,
         '2'
       ),
-      React.createElement(
-        'h4',
-        null,
-        'Role:'
-      ),
-      React.createElement(
-        'p',
-        null,
-        'Programmer & Designer'
-      )
-    ),
-    React.createElement(
-      'section',
-      { className: 'right' },
       React.createElement(
         'h4',
         null,
@@ -1177,8 +1244,33 @@ var GolfIt = function GolfIt() {
       React.createElement(
         'p',
         null,
-        'Xcode & Photoshop'
+        'Xcode, Photoshop & Audacity'
       ),
+      React.createElement(
+        'h4',
+        null,
+        'Role:'
+      ),
+      React.createElement(
+        'p',
+        null,
+        'Programmer & Designer, Level Designer'
+      ),
+      React.createElement(
+        'p',
+        null,
+        '- Programmed core mechanics/functionality of the game ',
+        React.createElement('br', null),
+        '- Designed 9 level layouts of a 18 hole levels Golf game ',
+        React.createElement('br', null),
+        '- Designed GUI/UI elements and game menus ',
+        React.createElement('br', null),
+        '- Lead sound designer (Sound Effects/Foley Art, Background Music)'
+      )
+    ),
+    React.createElement(
+      'section',
+      { className: 'right' },
       React.createElement(
         'h4',
         null,
@@ -1187,7 +1279,7 @@ var GolfIt = function GolfIt() {
       React.createElement(
         'p',
         null,
-        'Less than 6 months'
+        'Less than 2 months'
       ),
       React.createElement(
         'h4',
@@ -1199,20 +1291,6 @@ var GolfIt = function GolfIt() {
         null,
         '2'
       ),
-      React.createElement(
-        'h4',
-        null,
-        'Role:'
-      ),
-      React.createElement(
-        'p',
-        null,
-        'Programmer & Designer, Level Designer'
-      )
-    ),
-    React.createElement(
-      'section',
-      { className: 'right' },
       React.createElement(
         'h4',
         null,
@@ -1300,12 +1378,35 @@ var TutorialWebsite = function TutorialWebsite() {
       React.createElement(
         'h4',
         null,
+        'Role:'
+      ),
+      React.createElement(
+        'p',
+        null,
+        'Programmer & Designer'
+      ),
+      React.createElement(
+        'p',
+        null,
+        '- Programmed & implemented website functionality ',
+        React.createElement('br', null),
+        '- Designed website layout ',
+        React.createElement('br', null),
+        '- Designed style/look and feel of website'
+      )
+    ),
+    React.createElement(
+      'section',
+      { className: 'right' },
+      React.createElement(
+        'h4',
+        null,
         'Duration'
       ),
       React.createElement(
         'p',
         null,
-        'Less than 6 months'
+        'Less than 2 months'
       ),
       React.createElement(
         'h4',
@@ -1317,20 +1418,6 @@ var TutorialWebsite = function TutorialWebsite() {
         null,
         '1'
       ),
-      React.createElement(
-        'h4',
-        null,
-        'Role:'
-      ),
-      React.createElement(
-        'p',
-        null,
-        'Programmer & Designer'
-      )
-    ),
-    React.createElement(
-      'section',
-      { className: 'right' },
       React.createElement(
         'h4',
         null,
@@ -1441,12 +1528,35 @@ var AudViz = function AudViz() {
       React.createElement(
         'h4',
         null,
+        'Role:'
+      ),
+      React.createElement(
+        'p',
+        null,
+        'Programmer & Designer'
+      ),
+      React.createElement(
+        'p',
+        null,
+        '- Programmed & implemented core functionality of audio visualizer ',
+        React.createElement('br', null),
+        '- Designed visual experience of the app ',
+        React.createElement('br', null),
+        '- Designed layout of the app'
+      )
+    ),
+    React.createElement(
+      'section',
+      { className: 'right' },
+      React.createElement(
+        'h4',
+        null,
         'Duration'
       ),
       React.createElement(
         'p',
         null,
-        'Less than 6 months'
+        'Less than 2 months'
       ),
       React.createElement(
         'h4',
@@ -1458,20 +1568,6 @@ var AudViz = function AudViz() {
         null,
         '1'
       ),
-      React.createElement(
-        'h4',
-        null,
-        'Role:'
-      ),
-      React.createElement(
-        'p',
-        null,
-        'Programmer & Designer'
-      )
-    ),
-    React.createElement(
-      'section',
-      { className: 'right' },
       React.createElement(
         'h4',
         null,
@@ -1596,12 +1692,37 @@ var KingOfTheBall = function KingOfTheBall() {
       React.createElement(
         'h4',
         null,
+        'Role:'
+      ),
+      React.createElement(
+        'p',
+        null,
+        'Programmer & Designer'
+      ),
+      React.createElement(
+        'p',
+        null,
+        '- Programmed game physics, core mechanics, functionality of the game ',
+        React.createElement('br', null),
+        '- Designed style/look and feel of the game ',
+        React.createElement('br', null),
+        '- Designed level layouts of the game ',
+        React.createElement('br', null),
+        '- Designed game menus of the game'
+      )
+    ),
+    React.createElement(
+      'section',
+      { className: 'right' },
+      React.createElement(
+        'h4',
+        null,
         'Duration'
       ),
       React.createElement(
         'p',
         null,
-        'Less than 6 months'
+        'Less than 2 months'
       ),
       React.createElement(
         'h4',
@@ -1613,20 +1734,6 @@ var KingOfTheBall = function KingOfTheBall() {
         null,
         '1'
       ),
-      React.createElement(
-        'h4',
-        null,
-        'Role:'
-      ),
-      React.createElement(
-        'p',
-        null,
-        'Programmer & Designer'
-      )
-    ),
-    React.createElement(
-      'section',
-      { className: 'right' },
       React.createElement(
         'h4',
         null,
@@ -1733,12 +1840,33 @@ var ComicsSpot = function ComicsSpot() {
       React.createElement(
         'h4',
         null,
+        'Role:'
+      ),
+      React.createElement(
+        'p',
+        null,
+        'Programmer & Designer'
+      ),
+      React.createElement(
+        'p',
+        null,
+        '- Programmed core functionality of the app, connecting two external API\'s with client browser HTTP requests ',
+        React.createElement('br', null),
+        '- Designed app layout and style/look and feel of the app'
+      )
+    ),
+    React.createElement(
+      'section',
+      { className: 'right' },
+      React.createElement(
+        'h4',
+        null,
         'Duration'
       ),
       React.createElement(
         'p',
         null,
-        'Less than 6 months'
+        'Less than 2 months'
       ),
       React.createElement(
         'h4',
@@ -1750,20 +1878,6 @@ var ComicsSpot = function ComicsSpot() {
         null,
         '1'
       ),
-      React.createElement(
-        'h4',
-        null,
-        'Role:'
-      ),
-      React.createElement(
-        'p',
-        null,
-        'Programmer & Designer'
-      )
-    ),
-    React.createElement(
-      'section',
-      { className: 'right' },
       React.createElement(
         'h4',
         null,
@@ -1864,12 +1978,35 @@ var MazahS = function MazahS() {
       React.createElement(
         'h4',
         null,
+        'Role:'
+      ),
+      React.createElement(
+        'p',
+        null,
+        'Programmer & Designer'
+      ),
+      React.createElement(
+        'p',
+        null,
+        '- Programmed core functionality of the app, connecting musixmatch\'s API with client browser requests ',
+        React.createElement('br', null),
+        '- Designed style/look and feel of the app ',
+        React.createElement('br', null),
+        '- Designed app layout'
+      )
+    ),
+    React.createElement(
+      'section',
+      { className: 'right' },
+      React.createElement(
+        'h4',
+        null,
         'Duration'
       ),
       React.createElement(
         'p',
         null,
-        'Less than 6 months'
+        'Less than 2 months'
       ),
       React.createElement(
         'h4',
@@ -1881,20 +2018,6 @@ var MazahS = function MazahS() {
         null,
         '1'
       ),
-      React.createElement(
-        'h4',
-        null,
-        'Role:'
-      ),
-      React.createElement(
-        'p',
-        null,
-        'Programmer & Designer'
-      )
-    ),
-    React.createElement(
-      'section',
-      { className: 'right' },
       React.createElement(
         'h4',
         null,
@@ -2019,12 +2142,37 @@ var Tweeter = function Tweeter() {
       React.createElement(
         'h4',
         null,
+        'Role:'
+      ),
+      React.createElement(
+        'p',
+        null,
+        'Programmer & Designer'
+      ),
+      React.createElement(
+        'p',
+        null,
+        '- Programmed & implemented core functionality of the app, such as sign-up/sign-in system, following/followers system, pushing to (tweeting) and pulling data from a database, tweeting with an attached image, etc. ',
+        React.createElement('br', null),
+        '- Implemented a dark/night mode toggle for users ',
+        React.createElement('br', null),
+        '- Designed layout and color theme of app ',
+        React.createElement('br', null),
+        '- Designed style/look and feel of the app'
+      )
+    ),
+    React.createElement(
+      'section',
+      { className: 'right' },
+      React.createElement(
+        'h4',
+        null,
         'Duration'
       ),
       React.createElement(
         'p',
         null,
-        'Less than 6 months'
+        'Less than 4 months'
       ),
       React.createElement(
         'h4',
@@ -2036,20 +2184,6 @@ var Tweeter = function Tweeter() {
         null,
         '1'
       ),
-      React.createElement(
-        'h4',
-        null,
-        'Role:'
-      ),
-      React.createElement(
-        'p',
-        null,
-        'Programmer & Designer'
-      )
-    ),
-    React.createElement(
-      'section',
-      { className: 'right' },
       React.createElement(
         'h4',
         null,
@@ -2156,12 +2290,33 @@ var Pictionary = function Pictionary() {
       React.createElement(
         'h4',
         null,
+        'Role:'
+      ),
+      React.createElement(
+        'p',
+        null,
+        'Programmer & Designer'
+      ),
+      React.createElement(
+        'p',
+        null,
+        '- Programmed core functionality of the game, connecting client browsers in a 4 server room/ game session for a simple game of Pictionary',
+        React.createElement('br', null),
+        '- Designed layout and style/look and feel of the game'
+      )
+    ),
+    React.createElement(
+      'section',
+      { className: 'right' },
+      React.createElement(
+        'h4',
+        null,
         'Duration'
       ),
       React.createElement(
         'p',
         null,
-        'Less than 6 months'
+        'Less than 2 months'
       ),
       React.createElement(
         'h4',
@@ -2173,20 +2328,6 @@ var Pictionary = function Pictionary() {
         null,
         '1'
       ),
-      React.createElement(
-        'h4',
-        null,
-        'Role:'
-      ),
-      React.createElement(
-        'p',
-        null,
-        'Programmer & Designer'
-      )
-    ),
-    React.createElement(
-      'section',
-      { className: 'right' },
       React.createElement(
         'h4',
         null,
@@ -2287,12 +2428,37 @@ var ArcadeJam = function ArcadeJam() {
       React.createElement(
         'h4',
         null,
+        'Role:'
+      ),
+      React.createElement(
+        'p',
+        null,
+        'Programmer & Designer'
+      ),
+      React.createElement(
+        'p',
+        null,
+        '- Programmed core mechanics/functionality of the game, basic player movement, shooting, collision detection, player shield toggle, and player scoring ',
+        React.createElement('br', null),
+        '- Designed style/look and feel of the game ',
+        React.createElement('br', null),
+        '- Designed UI elements and game menus ',
+        React.createElement('br', null),
+        '- Designed layout of the game'
+      )
+    ),
+    React.createElement(
+      'section',
+      { className: 'right' },
+      React.createElement(
+        'h4',
+        null,
         'Duration'
       ),
       React.createElement(
         'p',
         null,
-        'Less than 6 months'
+        'Less than 2 months'
       ),
       React.createElement(
         'h4',
@@ -2304,20 +2470,6 @@ var ArcadeJam = function ArcadeJam() {
         null,
         '1'
       ),
-      React.createElement(
-        'h4',
-        null,
-        'Role:'
-      ),
-      React.createElement(
-        'p',
-        null,
-        'Programmer & Designer'
-      )
-    ),
-    React.createElement(
-      'section',
-      { className: 'right' },
       React.createElement(
         'h4',
         null,
@@ -2430,12 +2582,37 @@ var DEO = function DEO() {
       React.createElement(
         'h4',
         null,
+        'Role:'
+      ),
+      React.createElement(
+        'p',
+        null,
+        'Programmer, Designer & Sound Designer'
+      ),
+      React.createElement(
+        'p',
+        null,
+        '- Programmed and implemented the base skeleton of the game, connectivity (client browser and server connections) ',
+        React.createElement('br', null),
+        '- Programmed some core mechanics/functionality of the game, basic player movement and shooting ',
+        React.createElement('br', null),
+        '- Designed dungeon layout of the game ',
+        React.createElement('br', null),
+        '- Lead sound designer (Sound Effects/Foley Art, Background Music)'
+      )
+    ),
+    React.createElement(
+      'section',
+      { className: 'right' },
+      React.createElement(
+        'h4',
+        null,
         'Duration'
       ),
       React.createElement(
         'p',
         null,
-        'Less than 6 months'
+        'Less than 2 months'
       ),
       React.createElement(
         'h4',
@@ -2447,20 +2624,6 @@ var DEO = function DEO() {
         null,
         '3'
       ),
-      React.createElement(
-        'h4',
-        null,
-        'Role:'
-      ),
-      React.createElement(
-        'p',
-        null,
-        'Programmer & Designer, Sound Designer'
-      )
-    ),
-    React.createElement(
-      'section',
-      { className: 'right' },
       React.createElement(
         'h4',
         null,
@@ -2536,7 +2699,7 @@ var Portfolios = function Portfolios() {
       React.createElement(
         'p',
         null,
-        'HTML5, CSS3, JavaScript, NodeJs & React'
+        'HTML5, CSS3, JavaScript, NodeJs & ReactJS'
       ),
       React.createElement(
         'h4',
@@ -2546,17 +2709,7 @@ var Portfolios = function Portfolios() {
       React.createElement(
         'p',
         null,
-        'Less than 6 months'
-      ),
-      React.createElement(
-        'h4',
-        null,
-        'Team size:'
-      ),
-      React.createElement(
-        'p',
-        null,
-        '1'
+        'Less than 4 months'
       ),
       React.createElement(
         'h4',
@@ -2567,11 +2720,30 @@ var Portfolios = function Portfolios() {
         'p',
         null,
         'Programmer & Designer'
+      ),
+      React.createElement(
+        'p',
+        null,
+        '- Programmed core functionality of portfolio websites ',
+        React.createElement('br', null),
+        '- Designed style/look and feel of portfolio websites ',
+        React.createElement('br', null),
+        '- Designed website layout'
       )
     ),
     React.createElement(
       'section',
       { className: 'right' },
+      React.createElement(
+        'h4',
+        null,
+        'Team size:'
+      ),
+      React.createElement(
+        'p',
+        null,
+        '1'
+      ),
       React.createElement(
         'h4',
         null,

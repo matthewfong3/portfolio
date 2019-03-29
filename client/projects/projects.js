@@ -94,14 +94,21 @@ const BunkR = () => {
         <p>Monogame</p>
         <h4>Tools used:</h4>
         <p>Visual Studios & Photoshop</p>
-        <h4>Duration</h4>
-        <p>Less than 6 months</p>
-        <h4>Team size:</h4>
-        <p>3</p>
         <h4>Role:</h4>
         <p>Programmer, Designer & Animator</p>
+        <p>
+          - Programmed some core mechanics/functionality of the game, such as basic player & enemy movement, shooting, collision <br></br>
+          - Programmed and implemented different types of weapons and health kit spawns <br></br>
+          - Assisted with implementation of bomb/nuke logic <br></br>
+          - Designed and tweaked character sprites <br></br>
+          - Designed GUI/UI elements and game menus
+        </p>
       </section>
       <section className="right">
+        <h4>Duration</h4>
+        <p>Less than 2 months</p>
+        <h4>Team size:</h4>
+        <p>3</p>
         <h4>Overview:</h4>
         <p>BunkR is a simple 2D shoot-em up platformer, arcade game. The player must survive in a post-apocalyptic city environment against hordes of zombies. The player may pick up various weapons and health kits that occasionally spawn in random areas on the screen. There are also platforms that the player may jump onto; however, they will lose health the longer they remain on the platforms. Additionally, a nuke/bomb will occasionally drop into the level that will clear all zombies and the player. In order to survive against this nuke/bomb, there will be a safe spot/bunker that activates and the player must get there beforehand.
 
@@ -141,13 +148,17 @@ const MarioKart = () => {
         <h4>Tools used:</h4>
         <p>Visual Studios, Maya & Unity</p>
         <h4>Duration</h4>
-        <p>Less than 6 months</p>
-        <h4>Team size:</h4>
-        <p>1</p>
+        <p>Less than 2 months</p>
         <h4>Role:</h4>
         <p>Programmer</p>
+        <p>
+          - Programmed & implemented the logic behind autonomous behavior (simple path finding and queueing) for Mario characters <br></br>
+          - Designed a simple racetrack level for Mario characters to showcase simple autonomous behavior
+        </p>
       </section>
       <section className="right">
+        <h4>Team size:</h4>
+        <p>1</p>
         <h4>Overview:</h4>
         <p>Mario Kart is a simple 3D simulation developed to showcase my implementation of autonomous agents. My main objective was to program game objects to implement steering behaviors, specifically queuing and simple path following. I then grabbed pre-modelled 3D Mario game objects/characters online and had them implement these autonomous behaviors. Autodesk Maya was used to resize the models so that they were proportional to the rest of the Unity world. Finally, models, textures, and scripts were imported into and implemented in Unity.</p>
       </section>
@@ -273,14 +284,19 @@ const FairlyOddParents = () => {
         <p>Mobile (iOS)</p>
         <h4>Tools used:</h4>
         <p>Photoshop</p>
-        <h4>Duration</h4>
-        <p>Less than 6 months</p>
-        <h4>Team size:</h4>
-        <p>1</p>
         <h4>Role:</h4>
         <p>Designer</p>
+        <p>
+          - Designed the GUI/UI elements (icons, buttons, pop-up alerts) <br></br>
+          - Designed in-game HUD elements <br></br>
+          - Designed game menus
+        </p>
       </section>
       <section className="right">
+        <h4>Duration</h4>
+        <p>Less than 2 months</p>
+        <h4>Team size:</h4>
+        <p>1</p>
         <h4>Overview:</h4>
         <p>The objective of this project was to build a prototype for an interface for a mobile game app. Inspired by city-building games, specifically The Simpsons: Tapped Out, I decided to build an interface prototype for a Fairly OddParents themed city-building game for mobile. Using in-game screenshots from The Simpsons: Tapped Out as background place-holders, I focused on the overall in-game interface of the app.</p>
       </section>
@@ -329,13 +345,18 @@ const BombsAway = () => {
         <h4>Tools used:</h4>
         <p>Unity</p>
         <h4>Duration</h4>
-        <p>Less than 6 months</p>
-        <h4>Team size:</h4>
-        <p>5</p>
+        <p>5 weeks</p>
         <h4>Role:</h4>
-        <p>Programmer (context-menu, camera) & Level Designer</p>
+        <p>Programmer & Level Designer</p>
+        <p>
+          - Programmed & implemented in-game camera and context-menu <br></br>
+          - Designed GUI/UI elements and game menus <br></br>
+          - Designed layout of game levels
+        </p>
       </section>
       <section className="right">
+        <h4>Team size:</h4>
+        <p>5</p>
         <h4>Overview:</h4>
         <p>Bombs Away is a single-player, side-scrolling, puzzle game. The player controls a defective bomb and must solve puzzles to reach the end of each leavel. The player may also control NPC bomb characters by calling them to him and command/send them to a location to either stand on a trigger or explode to clear obstacles in the way.</p>
       </section>
@@ -376,13 +397,18 @@ const DynamicDash = () => {
         <h4>Tools used:</h4>
         <p>Unity</p>
         <h4>Duration</h4>
-        <p>Less than 6 months</p>
-        <h4>Team size:</h4>
-        <p>5</p>
+        <p>5 weeks</p>
         <h4>Role:</h4>
-        <p>Programmer (power-up abilities) & Level Designer</p>
+        <p>Programmer & Level Designer</p>
+        <p>
+          - Programmed & implemented some core mechanics of the game, such as Power-Up abilities <br></br>
+          - Designed GUI/UI elements and game menus <br></br>
+          - Designed layout of game levels
+        </p>
       </section>
       <section className="right">
+        <h4>Team size:</h4>
+        <p>5</p>
         <h4>Overview:</h4>
         <p>Dynamic Dash is a two player, 1-versus-1 2D side-scrolling game. Influenced by SpeedRunners, Dynamic Dash is a split-screen racing game in which both player 1 (red) and player 2 (blue) compete against each other to reach the stage's finish line first. As the players traverse through each level and dodge obstacles, both players can collect coins, of which can be spent to use power-ups to interfere with the other player, effectively slowing them down, or boosting or shielding themselves.</p>
       </section>
@@ -435,13 +461,18 @@ const UnfinishedBus = () => {
         <h4>Tools used:</h4>
         <p>Unity & Autodesk Maya</p>
         <h4>Duration</h4>
-        <p>Less than 6 months</p>
-        <h4>Team size:</h4>
-        <p>5</p>
+        <p>15 weeks</p>
         <h4>Role:</h4>
-        <p>3D Modeler, Programmer (Camera) & Designer, UI Designer</p>
+        <p>3D Modeler, Programmer, Designer</p>
+        <p>
+          - Modeled all in-game models, except for Ghost model <br></br>
+          - Programmed and implemented in-game camera logic <br></br>
+          - Designed GUI/UI elements and game menus
+        </p>
       </section>
       <section className="right">
+        <h4>Team size:</h4>
+        <p>5</p>
         <h4>Overview:</h4>
         <p>Unfinished Business is a single-player, story-driven, puzzle-solving, mystery, 3D prototype game. The player plays as a "spirit-medium" detective who can communicate with ghosts. The player's objective is to solve the mysteries as to why ghosts are trapped in purgatory by hepling them bring closure to any unfinished business that they may have so their souls can move on in peace.</p>
       </section>
@@ -482,15 +513,21 @@ const DefendSina = () => {
         <h4>Platform:</h4>
         <p>iPad (iOS)</p>
         <h4>Tools used:</h4>
-        <p>Xcode & Photoshop</p>
-        <h4>Duration</h4>
-        <p>Less than 6 months</p>
-        <h4>Team size:</h4>
-        <p>2</p>
+        <p>Xcode, Photoshop & Audacity</p>
         <h4>Role:</h4>
         <p>Programmer & Designer</p>
+        <p>
+          - Programmed core mechanics/functionality of the game, such as basic player shooting <br></br>
+          - Designed emitter effects for power-up abilities <br></br>
+          - Designed GUI/UI elements and game menus <br></br>
+          - Lead sound designer (Sound Effects/Foley Art, Background Music)
+        </p>
       </section>
       <section className="right">
+        <h4>Duration</h4>
+        <p>Less than 2 months</p>
+        <h4>Team size:</h4>
+        <p>2</p>
         <h4>Overview:</h4>
         <p>Defend Sina is a top-down, tower defense game. Heavily influenced by the Attack on Titan anime, the game pits the player against endless hordes of monsters. The player must defend Wall Sina from collapsing by preventing monsters from reaching the wall. The player can fire crossbow shots and pick up power-ups, which occasionally spawn randomly on the battlefield. Magic abilities (elemental) are also available to the player to use to help them fend off the monster hordes. However, after using one, it will be on a cooldown timer until it is available again.</p>
       </section>
@@ -543,15 +580,21 @@ const GolfIt = () => {
         <h4>Platform:</h4>
         <p>iPad (iOS)</p>
         <h4>Tools used:</h4>
-        <p>Xcode & Photoshop</p>
-        <h4>Duration</h4>
-        <p>Less than 6 months</p>
-        <h4>Team size:</h4>
-        <p>2</p>
+        <p>Xcode, Photoshop & Audacity</p>
         <h4>Role:</h4>
         <p>Programmer & Designer, Level Designer</p>
+        <p>
+          - Programmed core mechanics/functionality of the game <br></br>
+          - Designed 9 level layouts of a 18 hole levels Golf game <br></br>
+          - Designed GUI/UI elements and game menus <br></br>
+          - Lead sound designer (Sound Effects/Foley Art, Background Music)
+        </p>
       </section>
       <section className="right">
+        <h4>Duration</h4>
+        <p>Less than 2 months</p>
+        <h4>Team size:</h4>
+        <p>2</p>
         <h4>Overview:</h4>
         <p>Golf It? is a single-player, top-down, casual game. Heavily influenced by Golf It!, available on Steam, Golf It? is a simple mini-golf prototype game that showcases the use of the simple physics collision system in SpriteKit. As the player plays through a complete 18-hole game of mini-golf, they will face challenging levels with various obstacles laid through out. At the end of each hole, the game will record the number of strokes the player took before getting the ball in the hole. At the end of the game, the game will display the player's total score for that game run.</p>
       </section>
@@ -590,14 +633,19 @@ const TutorialWebsite = () => {
         <p>Desktop Browsers & Mobile Browsers</p>
         <h4>Tools used:</h4>
         <p>HTML5 & CSS3</p>
-        <h4>Duration</h4>
-        <p>Less than 6 months</p>
-        <h4>Team size:</h4>
-        <p>1</p>
         <h4>Role:</h4>
         <p>Programmer & Designer</p>
+        <p> 
+          - Programmed & implemented website functionality <br></br>
+          - Designed website layout <br></br>
+          - Designed style/look and feel of website
+        </p>
       </section>
       <section className="right">
+        <h4>Duration</h4>
+        <p>Less than 2 months</p>
+        <h4>Team size:</h4>
+        <p>1</p>
         <h4>Overview:</h4>
         <p>Using only HTML5 and CSS3 mark up language, I put together a tutorial website that walks others through an Ice Cream Bread Recipe. The website is both responsive to desktop browsers and mobile browsers as content scales accordingly.</p>
         <p>
@@ -645,14 +693,19 @@ const AudViz = () => {
         <p>Desktop Browsers</p>
         <h4>Tools used:</h4>
         <p>HTML5, CSS3, JavaScript, & Canvas</p>
-        <h4>Duration</h4>
-        <p>Less than 6 months</p>
-        <h4>Team size:</h4>
-        <p>1</p>
         <h4>Role:</h4>
         <p>Programmer & Designer</p>
+        <p>
+          - Programmed & implemented core functionality of audio visualizer <br></br>
+          - Designed visual experience of the app <br></br>
+          - Designed layout of the app
+        </p>
       </section>
       <section className="right">
+        <h4>Duration</h4>
+        <p>Less than 2 months</p>
+        <h4>Team size:</h4>
+        <p>1</p>
         <h4>Overview:</h4>
         <p>For this project, I had the chance to exlore and experiment with JavaScript and Canvas by developing and designing an audio visualizer. Heavily inspired by audio visualizers from youtube videos, I created an interactive experience and included a control panel for users to tweak/toggle different settings.</p>
         <p>
@@ -710,14 +763,20 @@ const KingOfTheBall = () => {
         <p>Desktop Browser</p>
         <h4>Tools used:</h4>
         <p>HTML5, CSS3, JavaScript & Canvas</p>
-        <h4>Duration</h4>
-        <p>Less than 6 months</p>
-        <h4>Team size:</h4>
-        <p>1</p>
         <h4>Role:</h4>
         <p>Programmer & Designer</p>
+        <p>
+          - Programmed game physics, core mechanics, functionality of the game <br></br>
+          - Designed style/look and feel of the game <br></br>
+          - Designed level layouts of the game <br></br>
+          - Designed game menus of the game
+        </p>
       </section>
       <section className="right">
+        <h4>Duration</h4>
+        <p>Less than 2 months</p>
+        <h4>Team size:</h4>
+        <p>1</p>
         <h4>Overview:</h4>
         <p>King of the Ball is 1-versus-1 arcade, party game, heavily inspired by PlayStation's BaraBariBall. The game mode is based on Halo's OddBall game mode, in which either players try to hold onto the ball for as long as they can while being in their respective color regions to gain points. The player with the most points after the timer expires wins.</p>
         <p>
@@ -763,14 +822,18 @@ const ComicsSpot = () => {
         <p>Desktop Browser</p>
         <h4>Tools used:</h4>
         <p>HTML5, CSS3, & JavaScript</p>
-        <h4>Duration</h4>
-        <p>Less than 6 months</p>
-        <h4>Team size:</h4>
-        <p>1</p>
         <h4>Role:</h4>
         <p>Programmer & Designer</p>
+        <p>
+          - Programmed core functionality of the app, connecting two external API's with client browser HTTP requests <br></br>
+          - Designed app layout and style/look and feel of the app
+        </p>
       </section>
       <section className="right">
+        <h4>Duration</h4>
+        <p>Less than 2 months</p>
+        <h4>Team size:</h4>
+        <p>1</p>
         <h4>Overview:</h4>
         <p>Comics Spot is a comic hub available for users to search up specific Marvel characters and look up related comic books, series, events and general information about the character. Comics Spot taps into Marvel's API and ComicVine's API to look up and fetch the appropriate information requested.</p>
         <p>
@@ -812,14 +875,19 @@ const MazahS = () => {
         <p>Desktop Browser</p>
         <h4>Tools used:</h4>
         <p>HTML5, CSS3, JavaScript, NodeJs</p>
-        <h4>Duration</h4>
-        <p>Less than 6 months</p>
-        <h4>Team size:</h4>
-        <p>1</p>
         <h4>Role:</h4>
         <p>Programmer & Designer</p>
+        <p>
+          - Programmed core functionality of the app, connecting musixmatch's API with client browser requests <br></br>
+          - Designed style/look and feel of the app <br></br>
+          - Designed app layout
+        </p>
       </section>
       <section className="right">
+        <h4>Duration</h4>
+        <p>Less than 2 months</p>
+        <h4>Team size:</h4>
+        <p>1</p>
         <h4>Overview:</h4>
         <p>mazahS is a music app inspired by the well-known app called Shazam. However, rather than listening to the lyrics of a song to retrieve the song's information, mazahS does the opposite! mazahS allows the user to add/remove songs to their local playlist. Then, the user may look up the lyrics to a song in their playlist. In other words, reverse Shazam (wow, so creative). When searching for a song's lyrics, mazahS taps into musixmatch's API, which will validate if the song exists and returns the lyrics to that song.</p>
         <p>
@@ -877,14 +945,20 @@ const Tweeter = () => {
         <p>Desktop Browser</p>
         <h4>Tools used:</h4>
         <p>HTML5, CSS3, JavaScript, NodeJs, React, MongoDB & Redis</p>
-        <h4>Duration</h4>
-        <p>Less than 6 months</p>
-        <h4>Team size:</h4>
-        <p>1</p>
         <h4>Role:</h4>
         <p>Programmer & Designer</p>
+        <p>
+          - Programmed & implemented core functionality of the app, such as sign-up/sign-in system, following/followers system, pushing to (tweeting) and pulling data from a database, tweeting with an attached image, etc. <br></br>
+          - Implemented a dark/night mode toggle for users <br></br>
+          - Designed layout and color theme of app <br></br>
+          - Designed style/look and feel of the app
+        </p>
       </section>
       <section className="right">
+        <h4>Duration</h4>
+        <p>Less than 4 months</p>
+        <h4>Team size:</h4>
+        <p>1</p>
         <h4>Overview:</h4>
         <p>Tweeter is a social media Twitter-clone app. Tweeter was developed and designed to be as close to the Twitter app as possible, however it is missing various features as it is just a dummy-clone. Tweeter allows users to create accounts, follow other accounts, tweet messages and include images as well in their tweets. Users can view their tweets and tweets from other Tweeter accounts that they follow. Users may also edit/delete their own tweets if they wish. Additionally, users can reply to tweets as well. Account users can also change their password if desired and can toggle between a light-mode/dark-mode interface view.</p>
         <p>
@@ -930,14 +1004,18 @@ const Pictionary = () => {
         <p>Desktop Browser</p>
         <h4>Tools used:</h4>
         <p>HTML5, CSS3, JavaScript, NodeJs, & Websockets (Socket.io)</p>
-        <h4>Duration</h4>
-        <p>Less than 6 months</p>
-        <h4>Team size:</h4>
-        <p>1</p>
         <h4>Role:</h4>
         <p>Programmer & Designer</p>
+        <p>
+          - Programmed core functionality of the game, connecting client browsers in a 4 server room/ game session for a simple game of Pictionary<br></br>
+          - Designed layout and style/look and feel of the game
+        </p>
       </section>
       <section className="right">
+        <h4>Duration</h4>
+        <p>Less than 2 months</p>
+        <h4>Team size:</h4>
+        <p>1</p>
         <h4>Overview:</h4>
         <p>By utilizing socket.io and NodeJs, this project focuses on implementing a simple pictionary game. The main focus was to connect users (players) on different computer machines and have them successfully join in a game room session. Multiple rooms are also supported, as the first four players to join will be put in one game room and the next four will be put in another game room.</p>
         <p>
@@ -979,14 +1057,20 @@ const ArcadeJam = () => {
         <p>Desktop Browser</p>
         <h4>Tools used:</h4>
         <p>HTML5, CSS3, JavaScript, NodeJs, & Websockets (Socket.io)</p>
-        <h4>Duration</h4>
-        <p>Less than 6 months</p>
-        <h4>Team size:</h4>
-        <p>1</p>
         <h4>Role:</h4>
         <p>Programmer & Designer</p>
+        <p>
+          - Programmed core mechanics/functionality of the game, basic player movement, shooting, collision detection, player shield toggle, and player scoring <br></br>
+          - Designed style/look and feel of the game <br></br>
+          - Designed UI elements and game menus <br></br>
+          - Designed layout of the game
+        </p>
       </section>
       <section className="right">
+        <h4>Duration</h4>
+        <p>Less than 2 months</p>
+        <h4>Team size:</h4>
+        <p>1</p>
         <h4>Overview:</h4>
         <p>Arcade-Jam is a four player, sports-like, top-down shooter. By utilizing socket.io, NodeJs, and implementing basic collision-detection, Arcade-Jam is a 2-versus-2 team game; two players on the red team and two players on the blue team. Players must shoot projectiles to the opposing team's side to get a point. However, players on the opposing team may block the projectile from reaching the "goal". The first team to get 3 points is declared the winning team. Arcade-Jam offers very fast-paced and chaotic gameplay. Furthermore, Arcade-Jam connects users (players) on different computer machines. It also supports multiple game session rooms; so 4 players connected are placed in one game room session and the next 4 are placed in another game session.</p>
         <p>
@@ -1036,14 +1120,20 @@ const DEO = () => {
         <p>Desktop Browser</p>
         <h4>Tools used:</h4>
         <p>HTML5, CSS3, JavaScript, NodeJs, & Websockets (Socket.io)</p>
-        <h4>Duration</h4>
-        <p>Less than 6 months</p>
-        <h4>Team size:</h4>
-        <p>3</p>
         <h4>Role:</h4>
-        <p>Programmer & Designer, Sound Designer</p>
+        <p>Programmer, Designer & Sound Designer</p>
+        <p>
+          - Programmed and implemented the base skeleton of the game, connectivity (client browser and server connections) <br></br>
+          - Programmed some core mechanics/functionality of the game, basic player movement and shooting <br></br>
+          - Designed dungeon layout of the game <br></br>
+          - Lead sound designer (Sound Effects/Foley Art, Background Music)
+        </p>
       </section>
       <section className="right">
+        <h4>Duration</h4>
+        <p>Less than 2 months</p>
+        <h4>Team size:</h4>
+        <p>3</p>
         <h4>Overview:</h4>
         <p>Dungeon Explorers Online is a four player co-op, prototype game. By utilizing socket.io and NodeJs, one of the main focuses of this project was to implement a client-host. Since players are connecting into a game room session through a server, the purpose of a client-host was to make the server more lightweight in terms of functionality/responsiblities. When four players join into a session, a host-client is chosen and will execute most of the game's calculations. The game server also supports multiple game room sessions; the first four players will join one room, and the next four will join another game room. While in game, players work together to explore "dungeon" rooms. Each room consists of enemies and in order to advance/unlock further rooms, players must first clear the current room of all enemies.</p>
       </section>
@@ -1076,15 +1166,20 @@ const Portfolios = () => {
         <h4>Platform:</h4>
         <p>Desktop Browser</p>
         <h4>Tools used:</h4>
-        <p>HTML5, CSS3, JavaScript, NodeJs & React</p>
+        <p>HTML5, CSS3, JavaScript, NodeJs & ReactJS</p>
         <h4>Duration</h4>
-        <p>Less than 6 months</p>
-        <h4>Team size:</h4>
-        <p>1</p>
+        <p>Less than 4 months</p>
         <h4>Role:</h4>
         <p>Programmer & Designer</p>
+        <p>
+          - Programmed core functionality of portfolio websites <br></br>
+          - Designed style/look and feel of portfolio websites <br></br>
+          - Designed website layout
+        </p>
       </section>
       <section className="right">
+        <h4>Team size:</h4>
+        <p>1</p>
         <h4>Overview:</h4>
         <p>For my first portfolio website, I developed a very simple website by using HTML5, CSS3 and JavaScript. I also used fancybox to help showcase my projects. In terms of design, I wanted to implement a Marvel's Iron Man theme. Using Photoshop, I wanted to create a slick UI for viewers while they were navigating through my portfolio. For my second portfolio website, I focused on making a much more simple and clean portfolio website. In terms of development, I am using HTML5, CSS3, JavaScript, NodeJs and React. In terms of design, I wanted the look and feel of my new portfolio site to be more crisp and clear. My old portfolio (Iron Man theme) felt very dark and a bit overwhelming as there was a lot going on in each page. For my new portfolio, I wanted it to feel more bright and less compact in terms of content/information presented. It is more open in terms of space and offers a lot more breathing room.</p>
       </section>
