@@ -648,13 +648,16 @@ const TutorialWebsite = () => {
         <p>1</p>
         <h4>Overview:</h4>
         <p>Using only HTML5 and CSS3 mark up language, I put together a tutorial website that walks others through an Ice Cream Bread Recipe. The website is both responsive to desktop browsers and mobile browsers as content scales accordingly.</p>
-        <p>
-          <span>Link: </span>
-          <a href="https://people.rit.edu/mxf9125/230/project1/index.html">Ice Cream Bread Website</a>
-        </p>
+        
       </section>
     </div>
   );
+  /*
+  <p>
+    <span>Link: </span>
+    <a href="https://people.rit.edu/mxf9125/230/project1/index.html">Ice Cream Bread Website</a>
+  </p>
+  */
 };
 
 const AudViz = () => {
@@ -708,12 +711,15 @@ const AudViz = () => {
         <p>1</p>
         <h4>Overview:</h4>
         <p>For this project, I had the chance to exlore and experiment with JavaScript and Canvas by developing and designing an audio visualizer. Heavily inspired by audio visualizers from youtube videos, I created an interactive experience and included a control panel for users to tweak/toggle different settings.</p>
-        <p>
-          <span>Link: </span>
-          <a href="https://people.rit.edu/mxf9125/330/projects/audioViz/audioVizProject.html">Audio Visualizer</a>
-        </p>
+        
       </section>
     </div>
+    /*
+    <p>
+      <span>Link: </span>
+      <a href="https://people.rit.edu/mxf9125/330/projects/audioViz/audioVizProject.html">Audio Visualizer</a>
+    </p>
+    */
   );
 };
 
@@ -779,12 +785,15 @@ const KingOfTheBall = () => {
         <p>1</p>
         <h4>Overview:</h4>
         <p>King of the Ball is 1-versus-1 arcade, party game, heavily inspired by PlayStation's BaraBariBall. The game mode is based on Halo's OddBall game mode, in which either players try to hold onto the ball for as long as they can while being in their respective color regions to gain points. The player with the most points after the timer expires wins.</p>
-        <p>
-          <span>Link: </span>
-          <a href="https://people.rit.edu/mxf9125/330/projects/game/game.html">King of the Ball Game</a>
-        </p>
+        
       </section>
     </div>
+    /*
+    <p>
+      <span>Link: </span>
+      <a href="https://people.rit.edu/mxf9125/330/projects/game/game.html">King of the Ball Game</a>
+    </p>
+    */
   );
 };
 
@@ -836,13 +845,16 @@ const ComicsSpot = () => {
         <p>1</p>
         <h4>Overview:</h4>
         <p>Comics Spot is a comic hub available for users to search up specific Marvel characters and look up related comic books, series, events and general information about the character. Comics Spot taps into Marvel's API and ComicVine's API to look up and fetch the appropriate information requested.</p>
-        <p>
-          <span>Link: </span>
-          <a href="https://people.rit.edu/mxf9125/330/projects/comicsSpot/">Comics Spot App</a>
-        </p>
+        
       </section>
     </div>
   );
+  /*
+  <p>
+    <span>Link: </span>
+    <a href="https://people.rit.edu/mxf9125/330/projects/comicsSpot/">Comics Spot App</a>
+  </p>
+  */
 };
 
 const MazahS = () => {
