@@ -1,48 +1,34 @@
-const setupProjectLinks = () => {
-  const links = document.getElementsByClassName('fake-links');
-  
-  for(let i = 0; i < links.length; i++){
-    links[i].addEventListener('click', () => {
-      let data = {url: links[i].getAttribute('data-url')};
-      if(data.url === "/3Dmodels"){
-        //sendAjax('POST', '/3Dmodels', data, redirect);
-        sendAjax('POST', '/getProject', data, redirect); 
-      } else {
-        sendAjax('POST', '/getProject', data, redirect); 
-      }
-    });
-    
-    links[i].addEventListener('mouseover', () => {
-      let img = links[i].firstElementChild;
-      let file = img.getAttribute('data-file');
-      
-      img.src=`/assets/images/${file}.png`;
-    });
-    
-    links[i].addEventListener('mouseout', () => {
-      let img = links[i].firstElementChild;
-      let file = img.getAttribute('data-file');
-      
-      img.src=`/assets/images/${file}Gray.png`;
-    });
-  }
+const setupProjectsLinks = () => {
+    const links = document.getElementsByClassName('fake-links');
+
+    for(const l of links){
+        l.addEventListener('click', () => {
+            let data = { url: l.getAttribute('data-url') };
+            sendAjax('POST', '/getProject', data, redirect);
+        });
+
+        l.addEventListener('mouseover', () => {
+            let image = l.firstElementChild;
+            let file = image.getAttribute('data-file');
+
+            image.src = `assets/images/${file}.png`;
+        });
+
+        l.addEventListener('mouseout', () => {
+            let image = l.firstElementChild;
+            let file = image.getAttribute('data-file');
+
+            image.src = `assets/images/${file}_gray.png`;
+        });
+    }
 };
 
 const init = () => {
-  // set up onHover events for icons in nav bar
-  navOnHover();
-  // set up smooth scrolling for anchor tags
-  smoothScrolling();
-  
-  setupProjectLinks();
-  
-  // set up dropdown menu for responsive view
-  const dropdown = document.querySelector("#dropdown");
-  const respMenu = document.querySelector("#responsiveMenu");
-  if(dropdown && respMenu) {
-    //respMenu.style.display = "none";
-    dropdown.addEventListener("click", () => toggleDropdownMenu(respMenu));
-  }
+    navOnHover();
+
+    smoothScrolling();
+
+    setupProjectsLinks();
 };
 
 window.onload = init;
