@@ -63,7 +63,8 @@ nav ul li a.selected{
     filter: alpha(opacity=40);
 }
 
-nav #shortcutLinkedIn{
+nav #shortcutLinkedIn,
+nav #shortcutGithub{
     width: 50px;
     height: 50px;
     margin-top: 5px;
@@ -124,7 +125,8 @@ nav #shortcutLinkedIn{
     align-items: center;
 }
 
-#content #contacts #LinkedIn{
+#content #contacts #LinkedIn,
+#content #contacts #Github{
     width: 60px;
     height: 60px;
 }

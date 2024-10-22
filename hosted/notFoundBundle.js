@@ -5,10 +5,13 @@ window.onload = init;
 const navOnHover = () => {
   const logo = document.getElementById('logo');
   const linkedIn = document.getElementById('shortcutLinkedIn');
+  const github = document.getElementById('shortcutGithub');
   logo.addEventListener('mouseover', () => logo.src = 'assets/images/face.png');
   logo.addEventListener('mouseout', () => logo.src = 'assets/images/face_gray.png');
   linkedIn.addEventListener('mouseover', () => linkedIn.src = 'assets/images/linkedin.png');
   linkedIn.addEventListener('mouseout', () => linkedIn.src = 'assets/images/linkedin_gray.png');
+  github.addEventListener('mouseover', () => github.src = 'assets/images/github.png');
+  github.addEventListener('mouseout', () => github.src = 'assets/images/github_gray.png');
 };
 const smoothScrolling = () => {
   // smooth scrolling
