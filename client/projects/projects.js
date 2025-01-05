@@ -107,11 +107,11 @@ const AudioViz = () => {
                     <p> For this project, I had the chance to explore and experiment with JavaScript 
                         and Canvas by developing and designing an audio visualizer. Heavily inspired 
                         by audio visualizers from youtube videos, I created an interactive experience 
-                        and included a control panel for users to tweak/toggle different audio & visual settings. 
+                        and included a control panel for users to tweak/toggle different audio & visual features. 
                         The app reads in an audio file and converts sound data to frequency/waveform data that
-                        users can then visualize.</p>
+                        the user can then visualize.</p>
 
-                    <p><span>Link: </span><a href="https://matthewfong3.github.io/audioviz/">Audio Visualizer App</a></p>
+                    <p><b><span>Experience it Yourself! </span><a href="https://matthewfong3.github.io/audioviz/">Audio Visualizer App</a></b></p>
                 </section>
             </div>
         </div>
@@ -167,18 +167,18 @@ const KingOfTheBall = () => {
                     <p>HTML5, CSS3, JavaScript, Canvas</p>
                     <h4>Role:</h4>
                     <p>Programmer & Designer</p>
-                    <p> - Programmed game physics, core mechanics, and functionality of the game, such as
+                    <p> - Programmed game physics, core mechanics, and functionality of the game using Object-Oriented Programming, such as
                         <ul>
-                            <li>collision detection</li>
+                            <li>simple physics system (collision detection)</li>
                             <li>bounding boxes</li>
                             <li>player movement and interactions</li>
                             <li>player and ball respawn logic</li>
                         </ul>
                         - Sprite Animations <br/>
-                        - Sound Design <br/>
+                        - Sound Design (sound effects, background music)<br/>
                         - Designed style/look and feel of the game <br/>
-                        - Designed level layouts of the game <br/>
-                        - Designed game menus of the game</p>
+                        - Designed level layouts <br/>
+                        - Designed game menus</p>
                     <h4>Duration</h4>
                     <p>Less than 6 weeks</p>
                 </section>
@@ -194,10 +194,11 @@ const KingOfTheBall = () => {
                         player interactions (players can pick up the ball from the ground or steal the ball from the other player holding it).
                         The game mode is based on Microsoft Halo's OddBall game mode, in which players try to hold onto the ball 
                         for as long as they can while being in their respective color regions to gain points. 
-                        The player with the most points after the timer expires wins. This project demonstrates understanding and utilization of HTML5's canvas element
-                        by updating game logic and animations and displaying these updates on the canvas for the players.</p>  
+                        The player with the most points after the timer expires wins. <br/><br/>
+                        This project demonstrates understanding and utilization of HTML5's canvas element
+                        by updating game logic and animations and then displaying these updates on the canvas for players.</p>  
 
-                    <p><span>Link: </span><a href="https://matthewfong3.github.io/king-of-the-ball/">King of the Ball Game</a></p>
+                    <p><b><span>Play the Game! </span><a href="https://matthewfong3.github.io/king-of-the-ball/">King of the Ball Game</a></b></p>
                 </section>
             </div>
         </div>
@@ -259,14 +260,14 @@ const Tweeter = () => {
                     <p>Programmer & Designer (Full Stack Developer)</p>
                     <p> - Programmed and implemented core functionality of the app, such as 
                             <ul>
-                                <li>sign-up/log-in with accounts from a database</li>
+                                <li>secure sign-up/log-in with accounts</li>
                                 <li>encrypting passwords for user accounts</li>
                                 <li>account's following/followers system</li>
                                 <li>creating, editing, deleting, favoriting, replying to user's tweets</li>
                                 <li>attaching images, gifs, and video files to tweets</li>
                             </ul>
-                        - Implemented a light/dark mode feature <br/>
-                        - Designed layout and color theme of app <br/>
+                        - Implemented dynamic and responsive application with ReactJS <br/>
+                        - Developed a light/dark mode feature <br/>
                         - Designed style/look and feel of the app</p>
                     <h4>Duration</h4>
                     <p>Less than 4 months</p>
@@ -280,15 +281,16 @@ const Tweeter = () => {
                     <h4>Overview:</h4>
                     <p> Tweeter is a social media <i>Twitter</i>-clone app project, demonstrating understanding of RESTful API and implementation of a Model-View-Controller (MVC) framework. 
                         Although, it is still missing various features, Tweeter was developed and designed to exemplify the core concept of what Twitter is, 
-                        an application where users can view a collection of data created by other users and interact with each other through this collection of data, which is stored in a database.
+                        an application where users can view a collection of data created by other users and interact with each other through this collection of data, which is stored in a database. <br/><br/>
+                        
                         Some features of Tweeter include creation of user accounts, following accounts, 
-                        tweeting (posting) messages, while also the ability to attach images, video, and gif files to the tweets. 
+                        tweeting (posting) messages, while also the ability to attach images, video, and gif files to tweets. 
                         Users can view not only their own tweets, but also tweets from other Tweeter accounts they follow. 
                         Additionally, users may also edit and/or delete their own tweets and can reply 
-                        to other tweets. Account users can change their password if desired and can toggle 
-                        between a light/dark mode interface view as well.</p>
+                        to other tweets. Account users can change their password and may toggle 
+                        between a light/dark mode interface as well.</p>
 
-                    <p><span>Link: </span><a href="https://tweeter-3de7.onrender.com/">Tweeter App</a></p>
+                    <p><b><span>Experience it Yourself! </span><a href="https://tweeter-3de7.onrender.com/">Tweeter</a></b></p>
                 </section>
             </div>
         </div>
@@ -334,9 +336,9 @@ const Pictionary = () => {
                     <p>Programmer & Designer</p>
                     <p> - Programmed core functionality of the game, such as
                         <ul>
-                            <li>connecting different client browsers in a game session (4 player server room) using websockets (socket.io)</li>
-                            <li>server assigning one random drawer at the start of each game, while the other three players will guess the word</li>
-                            <li>communication logic between client and server when sending and receiving data, i.e - chatbox messages</li>
+                            <li>connecting different client browsers in a game session (4 player server rooms) using websockets (socket.io)</li>
+                            <li>the server assigns one random drawer at the start of each game, while the other three players will guess the word</li>
+                            <li>communication logic between clients and server when sending and receiving data, i.e - chatbox messages, updates to the canvas when drawing</li>
                             <li>emitting and broadcasting image data (canvas drawings) between server and all connected clients</li>
                         </ul>
                         - Designed layout and style/look and feel of the game</p>
@@ -351,15 +353,15 @@ const Pictionary = () => {
                     <p>1</p>
                     <h4>Overview:</h4>
                     <p> Draw With Friends! is a clone copy of the popular game <i>Pictionary</i>. Each round, a different player is given a random word to draw and the other 3 players
-                        must guess the word to gain a point. The first player to reach 3 points will be declared the winner of the game and a new game will begin. 
-                        By utilizing Websockets (socket.io), Canvas and NodeJs, Draw With Friends! is a project that focuses in connecting users (players) from different client browsers 
+                        must guess the word to gain a point. The first player to reach 3 points will be declared the winner of the game and a new game will begin.  <br/><br/>
+                        By utilizing Websockets (socket.io), Canvas and NodeJs, Draw With Friends! is a project that connects users (players) from different client browsers 
                         into a game session (server room). Multiple rooms are also supported, as the first four players to join will be put 
                         in one game (server) room and the following four will be put in another game (server) room. Within a game, as the drawer is painting his artwork onto their canvas, 
-                        all this image data is being emitted to the server, in which the server will then broadcast the data to the other 3 guessers onto their respective canvases. Similarly,
+                        all the image data is being emitted to the server, in which the server will then broadcast the data back to the other 3 guessers onto their respective canvases. Similarly,
                         all the messages in the chatbox that the 3 guessers send will be emitted to the server, which will be checked against the drawer's word and then broadcasted back to 
                         every player in the room.</p>
                     
-                    <p><span>Link: </span><a href="https://pictionary-n42s.onrender.com/">Draw With Friends! Game</a></p>
+                    <p><b><span>Play the Game! </span><a href="https://pictionary-n42s.onrender.com/">Draw With Friends! Game</a></b></p>
                 </section>
             </div>
         </div>
@@ -399,17 +401,17 @@ const ArcadeJam = () => {
                     <p>HTML5, CSS3, JavaScript, NodeJs, Canvas, Websockets (socket.io)</p>
                     <h4>Role:</h4>
                     <p>Programmer & Designer</p>
-                    <p> - Programmed core mechanics and functionality of the game, such as 
+                    <p> - Programmed core mechanics and functionality of the game using Object-Oriented Programming, such as 
                         <ul>
                             <li>data communication between client and server (emitting and broadcasting data back and forth between server and all connected clients)</li>
+                            <li>creating server rooms and connecting players in a game session with websockets (socket.io)</li>
                             <li>player movement</li>
-                            <li>collision detection</li>
                             <li>bullet firing</li>
                             <li>bullet shielding</li>
+                            <li>simple physics system (collision detection)</li>
                         </ul>
                         - Designed style/look and feel of the game <br/>
-                        - Designed UI elements and game menus <br/>
-                        - Designed layout of the game</p>
+                        - Designed UI elements and game menus </p>
                     <h4>Duration</h4>
                     <p>Less than 6 weeks</p>
                 </section>
@@ -420,14 +422,14 @@ const ArcadeJam = () => {
                     <h4>Team size:</h4>
                     <p>1</p>
                     <h4>Overview:</h4>
-                    <p> Similar to air-hockey, Arcade-Jam is a four player, team-based, sports-like shooting game. 
-                        With two players on the red team and the other two on the blue team, players must shoot projectiles to the opposing team's side to get a point
-                        However, players on the opposing team may block the projectile from reaching the "goal" (end of screen). 
-                        The first team to get 3 points is declared the winning team. Arcade-Jam offers very fast-paced and chaotic gameplay.
-                        By using websockets (socket.io), Arcade-Jam is able to connect users (players) from difference browser instances in their own game sessions (server rooms). It also supports multiple game rooms; 
-                        so 4 players connected are placed in one room and the following 4 are placed in another room.</p>
+                    <p> Inspired by air-hockey, Arcade-Jam is a four player, team-based, sports-like shooting game. 
+                        With two players on the red team and two players on the blue team, players must shoot projectiles past the opposing team's side to get a point
+                        However, players may block incoming projectiles from reaching the "goal" (sides of screen). 
+                        The first team to get 3 points is declared the winning team. Arcade-Jam offers very fast-paced and chaotic gameplay. <br/><br/>
+                        By using websockets (socket.io), Arcade-Jam is able to connect users (players) from different browsers together in game sessions (server rooms). 
+                        There can be multiple game rooms at once, so 4 players connected are placed in one room and the next 4 are placed in another room, and so on.</p>
                         
-                    <p><span>Link: </span><a href="https://arcade-jam2.onrender.com/">Arcade-Jam Game</a></p>
+                    <p><b><span>Play the Game! </span><a href="https://arcade-jam2.onrender.com/">Arcade-Jam Game</a></b></p>
                 </section>
             </div>
         </div>
@@ -478,13 +480,13 @@ const Portfolio = () => {
                     <h4>Overview:</h4>
                     <p> For my first portfolio website (second slide), I developed a very simple website using HTML5, CSS3 and JavaScript. 
                         I used fancybox to help showcase my featured projects. In terms of design, I envisioned a <i>Marvel's Iron Man</i> theme; 
-                        I wanted to create a futuristic sci-fi UI for users while they navigate through my portfolio site. 
+                        I wanted to create a futuristic sci-fi UI for users while they navigate through my portfolio site. <br/><br/>
                         For my second portfolio website, my focus was to make a more modernized and clean portfolio site. 
                         In terms of development, this site is powered by HTML5, CSS3 & Flexbox, JavaScript, Jquery, NodeJs, ExpressJS and ReactJS. 
-                        For the design, I wanted the look and feel of my new portfolio site to be more crisp, clear, and easier on the eyes. 
+                        For the design, I wanted the look and feel of my new portfolio site to be crisp, clear, and easier on the eyes. 
                         My old portfolio site (Iron Man theme) felt very dark and a bit overwhelming as there was a lot going on in each page. 
-                        Instead, my new portfolio site is brighter, with the presentation of information/content being less compact and cluttered.
-                        It utilizes negative space a lot better and offers more breathing room.</p>
+                        Instead, with my new portfolio, information and content being presented is less compact and cluttered.
+                        I utilized negative space much better, offering more breathing room.</p>
                 </section>
             </div>
         </div>
@@ -588,10 +590,11 @@ const DevilFruit = () => {
                     <h4>Team size:</h4>
                     <p>1</p>
                     <h4>Overview:</h4>
-                    <p> Inspired by <i>One Piece</i>'s gomu gomu devil fruit, I was able to create two variations of the devil fruit. Using primitives
+                    <p> Inspired by <i>One Piece</i>'s gomu gomu devil fruit, I created two variations of the devil fruit. Using primitives
                         and bezier curves, I first modeled the shape of devil fruit. After some simple texturing and shading, I found myself investing
                         most of my time into lighting and compositing (post processing) to really make my devil fruit pop and shine. Finally, with some simple
-                        animations, I rendered out a short video showcasing my irresistible devil fruits.
+                        animations, I rendered out a short video showcasing my irresistible devil fruits. <br/><br/>
+                        P.S. - I never finished watching <i>One Piece</i> and probably never will because it is too long - <i>Ain't nobody got time fo' dat!</i> :)
                     </p>
                 </section>
             </div>
@@ -637,9 +640,9 @@ const ChessEnvironment = () => {
                     <h4>Team size:</h4>
                     <p>1</p>
                     <h4>Overview:</h4>
-                    <p> For this project, I decided to revisit my first 3D modeling assignment from college, which was to make a chess piece. 
+                    <p> For this project, I decided to revisit my first 3D modeling assignment, which was to make a chess piece. 
                         Since every chess piece is unique, I spent most of my time modelling each chess piece. After doing so, I applied a metalic, chrome-like material to the 
-                        chess set. Finally, after reusing some old assets and borrowed assets as well, I put together a simple aesthetic environment to showcase my chess set.
+                        chess set. Finally, after reusing some old assets I modeled and borrowed assets as well, I put together a simple aesthetic environment to showcase my chess set.
                     </p>
                 </section>
             </div>
@@ -684,10 +687,11 @@ const DynamicDash = () => {
                     <p>Visual Studio, C#, Unity</p>
                     <h4>Role:</h4>
                     <p>Programmer & Level Designer</p>
-                    <p> - Programmed & implemented some core mechanics of the game, 
-                          such as Power-Up abilities <br/>
-                        - Designed GUI/UI elements and game menus <br/>
-                        - Designed layout of game levels </p>
+                    <p> - Programmed & implemented some core mechanics of the game using Object-Oriented Programming, 
+                          such as Power-Up abilities, in C# <br/>
+                        - Wrote C# scripts to handle the interactions between different power-up abilities and how they affect the players <br/>
+                        - Designed GUI/UI elements and game menus in Unity <br/>
+                        - Designed layout of game levels in Unity editor </p>
                     <h4>Duration</h4>
                     <p>5 weeks</p>
                 </section>
@@ -697,8 +701,8 @@ const DynamicDash = () => {
                     <p>5</p>
                     <h4>Overview:</h4>
                     <p> Influenced by Steam's <i>SpeedRunners</i> game, Dynamic Dash is a two player, 1-versus-1 2D side-scrolling game. 
-                        Dynamic Dash is a split-screen racing game in which both player 1 (red) and player 2 (blue) compete against each other to reach the stage's finish line first. 
-                        As the players traverse through each level while dodging obstacles, both players can collect coins, which can be spent to use power-up abilities to give themselves a slight boost, a shield, or interfere with the other player.
+                        Dynamic Dash is a split-screen racing game in which both player 1 (red) and player 2 (blue) compete against each other to reach the finish line first. 
+                        As the players traverse through each level while dodging obstacles, both players can collect coins, which can be spent to use power-up abilities to give themselves a slight boost, a shield, or interfere with the other player by slowing them down. <br/><br/>
                         My main role for this project was designing and developing the power-up abilities and handling the logic behind how they interact with each other and the players.
                         I was also responsible for designing the levels/courses of the game, as well as designing the GUI and UI menus for the game.</p>
                 </section>
@@ -740,15 +744,15 @@ const BunkR = () => {
                     <p>Visual Studio, C#, Photoshop</p>
                     <h4>Role:</h4>
                     <p>Programmer, Designer & Animator</p>
-                    <p> - Programmed some core mechanics/functionality of the game, such as 
+                    <p> - Programmed some core mechanics/functionality of the game with Object-Oriented Programming, such as 
                         <ul>
                             <li>basic player & enemy movement</li>
                             <li>bullet firing</li>
-                            <li>collision-detection</li>
+                            <li>simple physics system (collision-detection)</li>
                             <li>bounding boxes</li>
                         </ul>
-                        - Programmed and implemented different types of weapons and health kit spawns <br/>
-                        - Assisted with implementation of the bomb/nuke logic in game<br/>
+                        - Programmed C# scripts for different types of weapons and health kit spawns <br/>
+                        - Assisted with implementation of the bomb/nuke logic in game manager script<br/>
                         - Designed and adjusted character sprites <br/>
                         - Designed GUI elements and UI game menus </p>
                     <h4>Duration</h4>
@@ -762,13 +766,13 @@ const BunkR = () => {
                     <p>3</p>
                     <h4>Overview:</h4>
                     <p> BunkR is a simple 2D shoot-em up platformer, arcade game. 
-                        The player must survive in a post-apocalyptic city environment against hordes/waves of zombies. 
-                        The player may pick up various weapons and health kits that occasionally spawn in random areas on the screen. 
+                        The player must survive in a post-apocalyptic city environment against waves of zombies. 
+                        The player may pick up various weapons and health kits that spawn in random areas on the screen. 
                         There are also platforms that the player may jump onto; however, they will lose health the longer they remain on the platforms. 
                         Additionally, a nuke/bomb will occasionally drop into the level that will clear all zombies, including the player. 
-                        In order to survive against this nuke/bomb, there will be a safe spot/bunker that activates and the player must get there beforehand.
-                        I assisted my team in developing the core mechanics and physics of the game, including player movement, bullet firing, and collision-detection. 
-                        By using Photoshop, I was also able to make the player and zombie animations with spritesheets.</p>
+                        In order to survive against the nuke, there will be a safe spot/bunker that activates and the player must get there before. <br/><br/>
+                        I assisted my team in developing the core mechanics and physics of the game, including C# scripts for player movement, bullet firing, collision-detection, different weapon types and health kits. 
+                        Using Photoshop, I was also able to make the player and zombie animations with spritesheets.</p>
                 </section>
             </div>
       </div>
@@ -812,7 +816,8 @@ const DefendSina = () => {
                     <p>Swift, Xcode, Photoshop, Audacity</p>
                     <h4>Role:</h4>
                     <p>Programmer & Designer</p>
-                    <p> - Programmed core mechanics/functionality of the game, such as basic player shooting <br/>
+                    <p> - Programmed core mechanics/functionality of the game, such as basic player shooting, in Xcode <br/>
+                        - Assisted in scripting the player, enemy, power-up abilities and game manager classes with Object-Oriented Programming <br/>
                         - Designed emitter effects for power-up abilities <br/>
                         - Designed GUI elements and UI for game menus <br/>
                         - Designed the style/look and feel of the game <br/>
@@ -832,7 +837,8 @@ const DefendSina = () => {
                         collapsing by preventing monsters from reaching the wall. The player can fire crossbow shots and pick up 
                         power-up abilities, which occasionally spawn randomly on the battlefield. Elemental (magic) abilities are also 
                         available to the player to use to help them fend off the monster hordes. However, after using one, 
-                        it will go on cooldown until it is available again. My main role for this project was to build the sounds, visual effects, 
+                        it will go on cooldown until it is available again. <br/><br/>
+                        My main role for this project was to build the sounds, visual effects, 
                         and style of the game to create an immersive experience. I also assisted my team in implementation of the player shooting mechanic.</p>
                 </section>
             </div>
@@ -889,7 +895,8 @@ const GolfIt = () => {
                     <p>Swift, Xcode, Photoshop, Audacity</p>
                     <h4>Role:</h4>
                     <p>Programmer, Designer & Level Designer</p>
-                    <p> - Programmed core mechanics/functionality of the game <br/>
+                    <p> - Programmed core mechanics/functionality of the game, such as the physics system (golf ball interacting with different obstacles), in Xcode <br/>
+                        - Assisted in scripting the game manager class with Object-Oriented Programming <br/>
                         - Designed 9 level layouts of a 18 hole levels Golf game <br/>
                         - Designed GUI elements and UI for game menus <br/>
                         - Lead sound designer (Sound Effects/Foley Art, Background Music)</p>
@@ -907,7 +914,7 @@ const GolfIt = () => {
                         Golf It? is a simple mini-golf game that showcases the use of the simple physics collision system in SpriteKit. 
                         As the player plays through a complete 18-hole game of mini-golf, they will face challenging levels with various 
                         obstacles laid throughout. At the end of each hole, the game will record the number of strokes the player took 
-                        before getting the ball in the hole. At the end of the game, the game will display the player's total score. 
+                        before getting the ball in the hole. At the end of the game, the game will display the player's total score. <br/><br/>
                         My main role for this project was designing the levels so they are both challenging but also not frustrating for the player; 
                         sound design to immerse the player in an interactive experience. I also assisted my team in developing some of the game's mechanics,
                         including certain obstacles and how they interact with the golf ball, i.e - dirt patches, water ponds, moving and rotating obstacles.</p>
