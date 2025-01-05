@@ -111,7 +111,7 @@ const AudioViz = () => {
                         The app reads in an audio file and converts sound data to frequency/waveform data that
                         the user can then visualize.</p>
 
-                    <p><b><span>Experience it Yourself! </span><a href="https://matthewfong3.github.io/audioviz/">Audio Visualizer App</a></b></p>
+                    <p><b><span>Experience it Yourself! </span><a href="https://matthewfong3.github.io/audioviz/">Audio Visualizer</a></b></p>
                 </section>
             </div>
         </div>
@@ -198,7 +198,7 @@ const KingOfTheBall = () => {
                         This project demonstrates understanding and utilization of HTML5's canvas element
                         by updating game logic and animations and then displaying these updates on the canvas for players.</p>  
 
-                    <p><b><span>Play the Game! </span><a href="https://matthewfong3.github.io/king-of-the-ball/">King of the Ball Game</a></b></p>
+                    <p><b><span>Play the Game! </span><a href="https://matthewfong3.github.io/king-of-the-ball/">King of the Ball</a></b></p>
                 </section>
             </div>
         </div>
@@ -361,7 +361,7 @@ const Pictionary = () => {
                         all the messages in the chatbox that the 3 guessers send will be emitted to the server, which will be checked against the drawer's word and then broadcasted back to 
                         every player in the room.</p>
                     
-                    <p><b><span>Play the Game! </span><a href="https://pictionary-n42s.onrender.com/">Draw With Friends! Game</a></b></p>
+                    <p><b><span>Play the Game! </span><a href="https://pictionary-n42s.onrender.com/">Draw With Friends!</a></b></p>
                 </section>
             </div>
         </div>
@@ -429,7 +429,7 @@ const ArcadeJam = () => {
                         By using websockets (socket.io), Arcade-Jam is able to connect users (players) from different browsers together in game sessions (server rooms). 
                         There can be multiple game rooms at once, so 4 players connected are placed in one room and the next 4 are placed in another room, and so on.</p>
                         
-                    <p><b><span>Play the Game! </span><a href="https://arcade-jam2.onrender.com/">Arcade-Jam Game</a></b></p>
+                    <p><b><span>Play the Game! </span><a href="https://arcade-jam2.onrender.com/">Arcade-Jam</a></b></p>
                 </section>
             </div>
         </div>

@@ -94,7 +94,7 @@ const AudioViz = () => {
     className: "right"
   }, /*#__PURE__*/React.createElement("h4", null, "Platform:"), /*#__PURE__*/React.createElement("p", null, "Desktop Browsers"), /*#__PURE__*/React.createElement("h4", null, "Team size:"), /*#__PURE__*/React.createElement("p", null, "1"), /*#__PURE__*/React.createElement("h4", null, "Overview:"), /*#__PURE__*/React.createElement("p", null, " For this project, I had the chance to explore and experiment with JavaScript and Canvas by developing and designing an audio visualizer. Heavily inspired by audio visualizers from youtube videos, I created an interactive experience and included a control panel for users to tweak/toggle different audio & visual features. The app reads in an audio file and converts sound data to frequency/waveform data that the user can then visualize."), /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, /*#__PURE__*/React.createElement("span", null, "Experience it Yourself! "), /*#__PURE__*/React.createElement("a", {
     href: "https://matthewfong3.github.io/audioviz/"
-  }, "Audio Visualizer App"))))));
+  }, "Audio Visualizer"))))));
 };
 const KingOfTheBall = () => {
   return /*#__PURE__*/React.createElement("div", {
@@ -176,7 +176,7 @@ const KingOfTheBall = () => {
     className: "right"
   }, /*#__PURE__*/React.createElement("h4", null, "Platform:"), /*#__PURE__*/React.createElement("p", null, "Desktop Browser"), /*#__PURE__*/React.createElement("h4", null, "Team size:"), /*#__PURE__*/React.createElement("p", null, "1"), /*#__PURE__*/React.createElement("h4", null, "Overview:"), /*#__PURE__*/React.createElement("p", null, " Heavily inspired by PlayStation's ", /*#__PURE__*/React.createElement("i", null, "BaraBariBall"), ", King of the Ball is a local 1-versus-1 arcade-party game. This project features 3 custom levels, implementation of game physics (constant gravity force), basic player movement & jumping, and player interactions (players can pick up the ball from the ground or steal the ball from the other player holding it). The game mode is based on Microsoft Halo's OddBall game mode, in which players try to hold onto the ball for as long as they can while being in their respective color regions to gain points. The player with the most points after the timer expires wins. ", /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("br", null), "This project demonstrates understanding and utilization of HTML5's canvas element by updating game logic and animations and then displaying these updates on the canvas for players."), /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, /*#__PURE__*/React.createElement("span", null, "Play the Game! "), /*#__PURE__*/React.createElement("a", {
     href: "https://matthewfong3.github.io/king-of-the-ball/"
-  }, "King of the Ball Game"))))));
+  }, "King of the Ball"))))));
 };
 const Tweeter = () => {
   return /*#__PURE__*/React.createElement("div", {
@@ -327,7 +327,7 @@ const Pictionary = () => {
     className: "right"
   }, /*#__PURE__*/React.createElement("h4", null, "Platform:"), /*#__PURE__*/React.createElement("p", null, "Desktop Browser"), /*#__PURE__*/React.createElement("h4", null, "Team size:"), /*#__PURE__*/React.createElement("p", null, "1"), /*#__PURE__*/React.createElement("h4", null, "Overview:"), /*#__PURE__*/React.createElement("p", null, " Draw With Friends! is a clone copy of the popular game ", /*#__PURE__*/React.createElement("i", null, "Pictionary"), ". Each round, a different player is given a random word to draw and the other 3 players must guess the word to gain a point. The first player to reach 3 points will be declared the winner of the game and a new game will begin.  ", /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("br", null), "By utilizing Websockets (socket.io), Canvas and NodeJs, Draw With Friends! is a project that connects users (players) from different client browsers into a game session (server room). Multiple rooms are also supported, as the first four players to join will be put in one game (server) room and the following four will be put in another game (server) room. Within a game, as the drawer is painting his artwork onto their canvas, all the image data is being emitted to the server, in which the server will then broadcast the data back to the other 3 guessers onto their respective canvases. Similarly, all the messages in the chatbox that the 3 guessers send will be emitted to the server, which will be checked against the drawer's word and then broadcasted back to every player in the room."), /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, /*#__PURE__*/React.createElement("span", null, "Play the Game! "), /*#__PURE__*/React.createElement("a", {
     href: "https://pictionary-n42s.onrender.com/"
-  }, "Draw With Friends! Game"))))));
+  }, "Draw With Friends!"))))));
 };
 const ArcadeJam = () => {
   return /*#__PURE__*/React.createElement("div", {
@@ -374,7 +374,7 @@ const ArcadeJam = () => {
     className: "right"
   }, /*#__PURE__*/React.createElement("h4", null, "Platform:"), /*#__PURE__*/React.createElement("p", null, "Desktop Browser"), /*#__PURE__*/React.createElement("h4", null, "Team size:"), /*#__PURE__*/React.createElement("p", null, "1"), /*#__PURE__*/React.createElement("h4", null, "Overview:"), /*#__PURE__*/React.createElement("p", null, " Inspired by air-hockey, Arcade-Jam is a four player, team-based, sports-like shooting game. With two players on the red team and two players on the blue team, players must shoot projectiles past the opposing team's side to get a point However, players may block incoming projectiles from reaching the \"goal\" (sides of screen). The first team to get 3 points is declared the winning team. Arcade-Jam offers very fast-paced and chaotic gameplay. ", /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("br", null), "By using websockets (socket.io), Arcade-Jam is able to connect users (players) from different browsers together in game sessions (server rooms). There can be multiple game rooms at once, so 4 players connected are placed in one room and the next 4 are placed in another room, and so on."), /*#__PURE__*/React.createElement("p", null, /*#__PURE__*/React.createElement("b", null, /*#__PURE__*/React.createElement("span", null, "Play the Game! "), /*#__PURE__*/React.createElement("a", {
     href: "https://arcade-jam2.onrender.com/"
-  }, "Arcade-Jam Game"))))));
+  }, "Arcade-Jam"))))));
 };
 const Portfolio = () => {
   return /*#__PURE__*/React.createElement("div", {
