@@ -89,7 +89,7 @@ const smoothScrolling = respProps => {
         window.location.hash = hash;
       });
     }
-    if (window.innerWidth <= "768") {
+    if (respProps.showDropdown && window.innerWidth <= "768") {
       toggleDropdown(respProps);
     }
   });
