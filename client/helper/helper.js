@@ -39,7 +39,7 @@ const setupDropdown = (respProps) => {
 const smoothScrolling = (respProps) => {
     // smooth scrolling
     // references: https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_eff_animate_smoothscroll
-    $("a").on("click", function(e) {
+    $(".navLinks").on("click", function(e) {
         // Make sure this.hash has a value before overriding default behavior
         if (this.hash !== "") {
           // Prevent default anchor click behavior
@@ -63,9 +63,16 @@ const smoothScrolling = (respProps) => {
         }
     });
 
+    let logoAnchor = document.getElementById("logoAnchor");
     let aboutMeAnchor = document.getElementById("aboutMeAnchor");
     let projectsAnchor = document.getElementById("projectsAnchor");
     let contactsAnchor = document.getElementById("contactsAnchor");
+
+    logoAnchor.addEventListener("click", () => {
+        aboutMeAnchor.classList.add("selected");
+        projectsAnchor.classList.remove("selected");
+    	contactsAnchor.classList.remove("selected");
+    });
 
     aboutMeAnchor.addEventListener("click", () => {
     	aboutMeAnchor.classList.add("selected");
