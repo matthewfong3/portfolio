@@ -15,7 +15,7 @@ const navOnHover = () => {
 
 const toggleDropdown = (respProps) => {
     const navbarList = document.getElementById("navbarList");
-    
+
     if(respProps.showDropdown){
         navbarList.animate({top: ["61px", "-500px"]}, {duration: 500, easing: "ease-in-out"});
         navbarList.style.top = "-500px";
@@ -58,7 +58,7 @@ const smoothScrolling = (respProps) => {
           });
         } 
 
-        if(window.innerWidth <= "480"){
+        if(window.innerWidth <= "768"){
             toggleDropdown(respProps);
         }
     });
