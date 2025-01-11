@@ -1,1 +1,1 @@
-module.exports.htmlHandler = require('./htmlResponses.js');
+module.exports.htmlHandler = require("./htmlResponses.js");

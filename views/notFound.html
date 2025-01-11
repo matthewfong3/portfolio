@@ -6,6 +6,7 @@
 
         <link href="assets/images/favicon.png" rel="shortcut icon"/>
         <link href="assets/css/notFound.css" rel="stylesheet" type="text/css"/>
+        <link href="assets/css/mediaQueriesNotFound.css" rel="stylesheet" type="text/css"/>
 
         <script crossorigin src="https://unpkg.com/react@16.7.0/umd/react.production.min.js"></script>
         <script crossorigin src="https://unpkg.com/react-dom@16.7.0/umd/react-dom.production.min.js"></script>
@@ -16,19 +17,22 @@
     </head>
     <body>
         <nav id="nav">
-            <a href="/"><img id="logo" src="assets/images/face_gray.png" alt="face logo"/></a>
-            
-            <div id="shortcutLinks">
-                <a href="https://www.linkedin.com/in/matthewfong3/"><img id="shortcutLinkedIn" src="assets/images/linkedin_gray.png" alt="LinkedIn link"/></a>
-                <a href="https://github.com/matthewfong3"><img id="shortcutGithub" src="assets/images/github_gray.png" alt="Github link"/></a>
+            <div id="navbarLinks">
+                <img id="dropdown" src="assets/images/dropdown.png" alt="dropdown icon"/>
+                <a href="/"><img id="logo" src="assets/images/face_gray.png" alt="face logo"/></a>
             </div>
-
-            <ul>
+            
+            <ul id="navbarList">
                 <li><a id="aboutMeAnchor" href="/#aboutMe" class="selected">About Me</a></li>
                 <li><a id="projectsAnchor" href="/#projects">Projects</a></li>
                 <li><a id="contactsAnchor" href="/#contacts">Contacts</a></li>
                 <li><a href="/resume">Resume</a></li>
             </ul>
+
+            <div id="shortcutLinks">
+                <a href="https://www.linkedin.com/in/matthewfong3/"><img id="shortcutLinkedIn" src="assets/images/linkedin_gray.png" alt="LinkedIn link"/></a>
+                <a href="https://github.com/matthewfong3"><img id="shortcutGithub" src="assets/images/github_gray.png" alt="Github link"/></a>
+            </div>
         </nav>
 
         <div id="notFoundContent">

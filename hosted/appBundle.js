@@ -1,45 +1,77 @@
 const setupProjectsLinks = () => {
-  const links = document.getElementsByClassName('fake-links');
+  const links = document.getElementsByClassName("fake-links");
   for (const l of links) {
-    l.addEventListener('click', () => {
+    l.addEventListener("click", () => {
       let data = {
-        url: l.getAttribute('data-url')
+        url: l.getAttribute("data-url")
       };
-      sendAjax('POST', '/getProject', data, redirect);
+      sendAjax("POST", "/getProject", data, redirect);
     });
-    l.addEventListener('mouseover', () => {
+    l.addEventListener("mouseover", () => {
       let image = l.firstElementChild;
-      let file = image.getAttribute('data-file');
+      let file = image.getAttribute("data-file");
       image.src = `assets/images/${file}.png`;
     });
-    l.addEventListener('mouseout', () => {
+    l.addEventListener("mouseout", () => {
       let image = l.firstElementChild;
-      let file = image.getAttribute('data-file');
+      let file = image.getAttribute("data-file");
       image.src = `assets/images/${file}_gray.png`;
     });
   }
 };
 const init = () => {
+  const respProps = {
+    showDropdown: false
+  };
   navOnHover();
-  smoothScrolling();
+  setupDropdown(respProps);
+  smoothScrolling(respProps);
   setupProjectsLinks();
 };
 window.onload = init;
 const navOnHover = () => {
-  const logo = document.getElementById('logo');
-  const linkedIn = document.getElementById('shortcutLinkedIn');
-  const github = document.getElementById('shortcutGithub');
-  logo.addEventListener('mouseover', () => logo.src = 'assets/images/face.png');
-  logo.addEventListener('mouseout', () => logo.src = 'assets/images/face_gray.png');
-  linkedIn.addEventListener('mouseover', () => linkedIn.src = 'assets/images/linkedin.png');
-  linkedIn.addEventListener('mouseout', () => linkedIn.src = 'assets/images/linkedin_gray.png');
-  github.addEventListener('mouseover', () => github.src = 'assets/images/github.png');
-  github.addEventListener('mouseout', () => github.src = 'assets/images/github_gray.png');
+  const logo = document.getElementById("logo");
+  const linkedIn = document.getElementById("shortcutLinkedIn");
+  const github = document.getElementById("shortcutGithub");
+  logo.addEventListener("mouseover", () => logo.src = "assets/images/face.png");
+  logo.addEventListener("mouseout", () => logo.src = "assets/images/face_gray.png");
+  linkedIn.addEventListener("mouseover", () => linkedIn.src = "assets/images/linkedin.png");
+  linkedIn.addEventListener("mouseout", () => linkedIn.src = "assets/images/linkedin_gray.png");
+  github.addEventListener("mouseover", () => github.src = "assets/images/github.png");
+  github.addEventListener("mouseout", () => github.src = "assets/images/github_gray.png");
 };
-const smoothScrolling = () => {
+const toggleDropdown = respProps => {
+  const navbarList = document.getElementById("navbarList");
+  if (respProps.showDropdown) {
+    navbarList.animate({
+      top: ["61px", "-500px"]
+    }, {
+      duration: 500,
+      easing: "ease-in-out"
+    });
+    navbarList.style.top = "-500px";
+    respProps.showDropdown = false;
+  } else {
+    navbarList.animate({
+      top: ["-500px", "61px"]
+    }, {
+      duration: 500,
+      easing: "ease-in-out"
+    });
+    navbarList.style.top = "61px";
+    respProps.showDropdown = true;
+  }
+};
+const setupDropdown = respProps => {
+  const dropdown = document.getElementById("dropdown");
+  dropdown.addEventListener("click", () => {
+    toggleDropdown(respProps);
+  });
+};
+const smoothScrolling = respProps => {
   // smooth scrolling
   // references: https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_eff_animate_smoothscroll
-  $("a").on('click', function (e) {
+  $("a").on("click", function (e) {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
       // Prevent default anchor click behavior
@@ -48,37 +80,40 @@ const smoothScrolling = () => {
       // Store hash
       let hash = this.hash;
 
-      // Using jQuery's animate() method to add smooth page scroll
+      // Using jQuery"s animate() method to add smooth page scroll
       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
+      $("html, body").animate({
         scrollTop: $(hash).offset().top
-      }, 800, function () {
+      }, 500, function () {
         // Add hash (#) to URL when done scrolling (default click behavior)
         window.location.hash = hash;
       });
-    } // End if
+    }
+    if (window.innerWidth <= "480") {
+      toggleDropdown(respProps);
+    }
   });
-  let aboutMeAnchor = document.getElementById('aboutMeAnchor');
-  let projectsAnchor = document.getElementById('projectsAnchor');
-  let contactsAnchor = document.getElementById('contactsAnchor');
-  aboutMeAnchor.addEventListener('click', () => {
-    aboutMeAnchor.classList.add('selected');
-    projectsAnchor.classList.remove('selected');
-    contactsAnchor.classList.remove('selected');
+  let aboutMeAnchor = document.getElementById("aboutMeAnchor");
+  let projectsAnchor = document.getElementById("projectsAnchor");
+  let contactsAnchor = document.getElementById("contactsAnchor");
+  aboutMeAnchor.addEventListener("click", () => {
+    aboutMeAnchor.classList.add("selected");
+    projectsAnchor.classList.remove("selected");
+    contactsAnchor.classList.remove("selected");
   });
-  projectsAnchor.addEventListener('click', () => {
-    aboutMeAnchor.classList.remove('selected');
-    projectsAnchor.classList.add('selected');
-    contactsAnchor.classList.remove('selected');
+  projectsAnchor.addEventListener("click", () => {
+    aboutMeAnchor.classList.remove("selected");
+    projectsAnchor.classList.add("selected");
+    contactsAnchor.classList.remove("selected");
   });
-  contactsAnchor.addEventListener('click', () => {
-    aboutMeAnchor.classList.remove('selected');
-    projectsAnchor.classList.remove('selected');
-    contactsAnchor.classList.add('selected');
+  contactsAnchor.addEventListener("click", () => {
+    aboutMeAnchor.classList.remove("selected");
+    projectsAnchor.classList.remove("selected");
+    contactsAnchor.classList.add("selected");
   });
 };
 const redirect = res => {
-  localStorage['url'] = JSON.stringify(res.url);
+  localStorage["url"] = JSON.stringify(res.url);
   window.location = res.redirect;
 };
 const sendAjax = (type, action, data, success) => {
