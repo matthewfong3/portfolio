@@ -113,6 +113,7 @@ nav #shortcutGithub{
     position: absolute;
     top: 50%;
     color: white;
+    background: #444;
     font-weight: bold;
     padding: 15px 15px;
     font-size: 20px;
@@ -127,14 +128,12 @@ nav #shortcutGithub{
   
 .reactComponent #slider-container .prev:hover, 
 .reactComponent #slider-container .next:hover{
-    background: rgba(0,0,0,0.8);
+    background: #aaa;
 }
   
 .reactComponent #dotsDiv{
-    position: absolute;
     width: 100%;
     text-align: center;
-    bottom: 50px;
 }
   
 .reactComponent #dotsDiv .dots{

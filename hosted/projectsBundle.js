@@ -72,7 +72,7 @@ const AudioViz = () => {
     className: "prev"
   }, "\u276E"), /*#__PURE__*/React.createElement("a", {
     className: "next"
-  }, "\u276F")), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("div", {
+  }, "\u276F")), /*#__PURE__*/React.createElement("div", {
     id: "dotsDiv"
   }, /*#__PURE__*/React.createElement("span", {
     className: "dots",
@@ -155,7 +155,7 @@ const KingOfTheBall = () => {
     className: "prev"
   }, "\u276E"), /*#__PURE__*/React.createElement("a", {
     className: "next"
-  }, "\u276F")), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("div", {
+  }, "\u276F")), /*#__PURE__*/React.createElement("div", {
     id: "dotsDiv"
   }, /*#__PURE__*/React.createElement("span", {
     className: "dots",
@@ -257,7 +257,7 @@ const Tweeter = () => {
     className: "prev"
   }, "\u276E"), /*#__PURE__*/React.createElement("a", {
     className: "next"
-  }, "\u276F")), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("div", {
+  }, "\u276F")), /*#__PURE__*/React.createElement("div", {
     id: "dotsDiv"
   }, /*#__PURE__*/React.createElement("span", {
     className: "dots",
@@ -335,7 +335,7 @@ const Pictionary = () => {
     className: "prev"
   }, "\u276E"), /*#__PURE__*/React.createElement("a", {
     className: "next"
-  }, "\u276F")), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("div", {
+  }, "\u276F")), /*#__PURE__*/React.createElement("div", {
     id: "dotsDiv"
   }, /*#__PURE__*/React.createElement("span", {
     className: "dots",
@@ -395,7 +395,7 @@ const ArcadeJam = () => {
     className: "prev"
   }, "\u276E"), /*#__PURE__*/React.createElement("a", {
     className: "next"
-  }, "\u276F")), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("div", {
+  }, "\u276F")), /*#__PURE__*/React.createElement("div", {
     id: "dotsDiv"
   }, /*#__PURE__*/React.createElement("span", {
     className: "dots",
@@ -446,7 +446,7 @@ const Portfolio = () => {
     className: "prev"
   }, "\u276E"), /*#__PURE__*/React.createElement("a", {
     className: "next"
-  }, "\u276F")), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("div", {
+  }, "\u276F")), /*#__PURE__*/React.createElement("div", {
     id: "dotsDiv"
   }, /*#__PURE__*/React.createElement("span", {
     className: "dots",
@@ -495,7 +495,7 @@ const Cookie = () => {
     className: "prev"
   }, "\u276E"), /*#__PURE__*/React.createElement("a", {
     className: "next"
-  }, "\u276F")), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("div", {
+  }, "\u276F")), /*#__PURE__*/React.createElement("div", {
     id: "dotsDiv"
   }, /*#__PURE__*/React.createElement("span", {
     className: "dots",
@@ -542,7 +542,7 @@ const DevilFruit = () => {
     className: "prev"
   }, "\u276E"), /*#__PURE__*/React.createElement("a", {
     className: "next"
-  }, "\u276F")), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("div", {
+  }, "\u276F")), /*#__PURE__*/React.createElement("div", {
     id: "dotsDiv"
   }, /*#__PURE__*/React.createElement("span", {
     className: "dots",
@@ -582,7 +582,7 @@ const ChessEnvironment = () => {
     className: "prev"
   }, "\u276E"), /*#__PURE__*/React.createElement("a", {
     className: "next"
-  }, "\u276F")), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("div", {
+  }, "\u276F")), /*#__PURE__*/React.createElement("div", {
     id: "dotsDiv"
   }, /*#__PURE__*/React.createElement("span", {
     className: "dots",
@@ -635,7 +635,7 @@ const DynamicDash = () => {
     className: "prev"
   }, "\u276E"), /*#__PURE__*/React.createElement("a", {
     className: "next"
-  }, "\u276F")), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("div", {
+  }, "\u276F")), /*#__PURE__*/React.createElement("div", {
     id: "dotsDiv"
   }, /*#__PURE__*/React.createElement("span", {
     className: "dots",
@@ -691,7 +691,7 @@ const BunkR = () => {
     className: "prev"
   }, "\u276E"), /*#__PURE__*/React.createElement("a", {
     className: "next"
-  }, "\u276F")), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("div", {
+  }, "\u276F")), /*#__PURE__*/React.createElement("div", {
     id: "dotsDiv"
   }, /*#__PURE__*/React.createElement("span", {
     className: "dots",
@@ -751,7 +751,7 @@ const DefendSina = () => {
     className: "prev"
   }, "\u276E"), /*#__PURE__*/React.createElement("a", {
     className: "next"
-  }, "\u276F")), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("div", {
+  }, "\u276F")), /*#__PURE__*/React.createElement("div", {
     id: "dotsDiv"
   }, /*#__PURE__*/React.createElement("span", {
     className: "dots",
@@ -831,7 +831,7 @@ const GolfIt = () => {
     className: "prev"
   }, "\u276E"), /*#__PURE__*/React.createElement("a", {
     className: "next"
-  }, "\u276F")), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("div", {
+  }, "\u276F")), /*#__PURE__*/React.createElement("div", {
     id: "dotsDiv"
   }, /*#__PURE__*/React.createElement("span", {
     className: "dots",
@@ -934,7 +934,7 @@ const Models = () => {
     className: "prev"
   }, "\u276E"), /*#__PURE__*/React.createElement("a", {
     className: "next"
-  }, "\u276F")), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("div", {
+  }, "\u276F")), /*#__PURE__*/React.createElement("div", {
     id: "dotsDiv"
   }, /*#__PURE__*/React.createElement("span", {
     className: "dots",

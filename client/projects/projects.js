@@ -70,7 +70,6 @@ const AudioViz = () => {
                 <a className="prev">&#10094;</a>
                 <a className="next">&#10095;</a>
             </div>
-            <br/>
 
             <div id="dotsDiv">
                 <span className="dots" data-i="0"></span>
@@ -147,7 +146,6 @@ const KingOfTheBall = () => {
                 <a className="prev">&#10094;</a>
                 <a className="next">&#10095;</a>
             </div>
-            <br/>
       
             <div id="dotsDiv">
                 <span className="dots" data-i="0"></span>
@@ -237,7 +235,6 @@ const Tweeter = () => {
                 <a className="prev">&#10094;</a>
                 <a className="next">&#10095;</a>
             </div>
-            <br/>
       
             <div id="dotsDiv">
                 <span className="dots" data-i="0"></span>
@@ -317,7 +314,6 @@ const Pictionary = () => {
                 <a className="prev">&#10094;</a>
                 <a className="next">&#10095;</a>
             </div>
-            <br/>
       
             <div id="dotsDiv">
                 <span className="dots" data-i="0"></span>
@@ -385,7 +381,6 @@ const ArcadeJam = () => {
                 <a className="prev">&#10094;</a>
                 <a className="next">&#10095;</a>
             </div>
-            <br/>
       
             <div id="dotsDiv">
                 <span className="dots" data-i="0"></span>
@@ -450,7 +445,6 @@ const Portfolio = () => {
                 <a className="prev">&#10094;</a>
                 <a className="next">&#10095;</a>
             </div>
-            <br/>
       
             <div id="dotsDiv">
                 <span className="dots" data-i="0"></span>
@@ -507,7 +501,6 @@ const Cookie = () => {
                 <a className="prev">&#10094;</a>
                 <a className="next">&#10095;</a>
             </div>
-            <br/>
 
             <div id="dotsDiv">
                 <span className="dots" data-i="0"></span>
@@ -562,7 +555,6 @@ const DevilFruit = () => {
                 <a className="prev">&#10094;</a>
                 <a className="next">&#10095;</a>
             </div>
-            <br/>
 
             <div id="dotsDiv">
                 <span className="dots" data-i="0"></span>
@@ -613,7 +605,6 @@ const ChessEnvironment = () => {
                 <a className="prev">&#10094;</a>
                 <a className="next">&#10095;</a>
             </div>
-            <br/>
 
             <div id="dotsDiv">
                 <span className="dots" data-i="0"></span>
@@ -670,7 +661,6 @@ const DynamicDash = () => {
                 <a className="prev">&#10094;</a>
                 <a className="next">&#10095;</a>
             </div>
-            <br/>
         
             <div id="dotsDiv">
                 <span className="dots" data-i="0"></span>
@@ -728,7 +718,6 @@ const BunkR = () => {
                 <a className="prev">&#10094;</a>
                 <a className="next">&#10095;</a>
             </div>
-            <br/>
         
             <div id="dotsDiv">
                 <span className="dots" data-i="0"></span>
@@ -799,7 +788,6 @@ const DefendSina = () => {
                 <a className="prev">&#10094;</a>
                 <a className="next">&#10095;</a>
             </div>
-            <br/>
         
             <div id="dotsDiv">
                 <span className="dots" data-i="0"></span>
@@ -875,7 +863,6 @@ const GolfIt = () => {
                 <a className="prev">&#10094;</a>
                 <a className="next">&#10095;</a>
             </div>
-            <br/>
         
             <div id="dotsDiv">
                 <span className="dots" data-i="0"></span>
@@ -959,7 +946,6 @@ const Models = () => {
                 <a className="prev">&#10094;</a>
                 <a className="next">&#10095;</a>
             </div>
-            <br/>
         
             <div id="dotsDiv">
                 <span className="dots" data-i="0"></span>

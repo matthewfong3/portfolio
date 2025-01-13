@@ -61,10 +61,8 @@
     }
 
     .reactComponent #dotsDiv{
-        position: absolute;
         width: 100%;
         text-align: center;
-        top: 35%;
     }
 
     .reactComponent #dotsDiv .dots{
