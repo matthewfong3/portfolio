@@ -20,7 +20,11 @@
     "watchAppBundle": "babel --watch ./client/app ./client/helper --presets @babel/preset-react --out-file ./hosted/appBundle.js",
     "watchProjectsBundle": "babel --watch ./client/projects ./client/helper --presets @babel/preset-react --out-file ./hosted/projectsBundle.js",
     "watchResumeBundle": "babel --watch ./client/resume ./client/helper --presets @babel/preset-react --out-file ./hosted/resumeBundle.js",
-    "watchNotFoundBundle": "babel --watch ./client/notFound ./client/helper --presets @babel/preset-react --out-file ./hosted/notFoundBundle.js"
+    "watchNotFoundBundle": "babel --watch ./client/notFound ./client/helper --presets @babel/preset-react --out-file ./hosted/notFoundBundle.js",
+    "watchIndexSassBundle": "sass.bat --watch ./hosted/scss/index.scss ./hosted/css/index.css",
+    "watchNotFoundSassBundle": "sass.bat --watch ./hosted/scss/notFound.scss ./hosted/css/notFound.css",
+    "watchProjectsSassBundle": "sass.bat --watch ./hosted/scss/projects.scss ./hosted/css/projects.css",
+    "watchResumeSassBundle": "sass.bat --watch ./hosted/scss/resume.scss ./hosted/css/resume.css"
   },
   "author": "Matthew Fong",
   "license": "ISC",

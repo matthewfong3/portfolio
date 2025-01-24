@@ -46,6 +46,13 @@ const AudioViz = () => {
     id: "slider-container"
   }, /*#__PURE__*/React.createElement("div", {
     className: "slides fade"
+  }, /*#__PURE__*/React.createElement("video", {
+    controls: true
+  }, /*#__PURE__*/React.createElement("source", {
+    src: "assets/images/audiovizSample2.mp4",
+    type: "video/mp4"
+  }))), /*#__PURE__*/React.createElement("div", {
+    className: "slides fade"
   }, /*#__PURE__*/React.createElement("img", {
     src: "assets/images/audioviz1.png",
     alt: "Audio Vizualizer 1"
@@ -61,14 +68,7 @@ const AudioViz = () => {
     id: "img",
     src: "assets/images/audioviz3.png",
     alt: "Audio Vizualizer 3"
-  })), /*#__PURE__*/React.createElement("div", {
-    className: "slides fade"
-  }, /*#__PURE__*/React.createElement("video", {
-    controls: true
-  }, /*#__PURE__*/React.createElement("source", {
-    src: "assets/images/audiovizSample2.mp4",
-    type: "video/mp4"
-  }))), /*#__PURE__*/React.createElement("a", {
+  })), /*#__PURE__*/React.createElement("a", {
     className: "prev"
   }, "\u276E"), /*#__PURE__*/React.createElement("a", {
     className: "next"
@@ -289,7 +289,7 @@ const Tweeter = () => {
     className: "left"
   }, /*#__PURE__*/React.createElement("h4", null, "Tools used"), /*#__PURE__*/React.createElement("p", {
     className: "p"
-  }, "HTML5, CSS3, JavaScript, Jquery, NodeJs, ReactJS, ExpressJS, MongoDB, Redis"), /*#__PURE__*/React.createElement("h4", null, "Role"), /*#__PURE__*/React.createElement("p", {
+  }, "HTML5, CSS3, JavaScript, Jquery, (MERN) NodeJs, ReactJS, ExpressJS, MongoDB, Redis"), /*#__PURE__*/React.createElement("h4", null, "Role"), /*#__PURE__*/React.createElement("p", {
     className: "p"
   }, "Programmer & Designer (Full Stack Developer)"), /*#__PURE__*/React.createElement("p", null, " - Programmed and implemented core functionality of the app, such as", /*#__PURE__*/React.createElement("ul", null, /*#__PURE__*/React.createElement("li", null, "secure sign-up/log-in with accounts"), /*#__PURE__*/React.createElement("li", null, "encrypting passwords for user accounts"), /*#__PURE__*/React.createElement("li", null, "account's following/followers system"), /*#__PURE__*/React.createElement("li", null, "creating, editing, deleting, favoriting, replying to user's tweets"), /*#__PURE__*/React.createElement("li", null, "attaching images, gifs, and video files to tweets")), "- Implemented dynamic and responsive application with ReactJS ", /*#__PURE__*/React.createElement("br", null), "- Developed a light/dark mode feature ", /*#__PURE__*/React.createElement("br", null), "- Designed style/look and feel of the app"), /*#__PURE__*/React.createElement("h4", null, "Duration"), /*#__PURE__*/React.createElement("p", {
     className: "p"
@@ -460,9 +460,9 @@ const Portfolio = () => {
     className: "left"
   }, /*#__PURE__*/React.createElement("h4", null, "Tools used"), /*#__PURE__*/React.createElement("p", {
     className: "p"
-  }, "HTML5, CSS3, JavaScript, Jquery, NodeJs, ExpressJS, ReactJS"), /*#__PURE__*/React.createElement("h4", null, "Role"), /*#__PURE__*/React.createElement("p", {
+  }, "HTML5, CSS3, Sass, JavaScript, Jquery, NodeJs, ExpressJS, ReactJS"), /*#__PURE__*/React.createElement("h4", null, "Role"), /*#__PURE__*/React.createElement("p", {
     className: "p"
-  }, "Programmer & Designer"), /*#__PURE__*/React.createElement("p", null, " - Programmed core functionality of portfolio websites ", /*#__PURE__*/React.createElement("br", null), "- Designed style/look and feel of portfolio websites ", /*#__PURE__*/React.createElement("br", null), "- Designed website layout"), /*#__PURE__*/React.createElement("h4", null, "Duration"), /*#__PURE__*/React.createElement("p", {
+  }, "Programmer & Designer"), /*#__PURE__*/React.createElement("p", null, " - Programmed core functionality of portfolio websites ", /*#__PURE__*/React.createElement("br", null), "- Designed style/look and feel of portfolio websites ", /*#__PURE__*/React.createElement("br", null), "- Organized CSS3 styles and files through Sass pre-processor ", /*#__PURE__*/React.createElement("br", null), "- Designed website layout"), /*#__PURE__*/React.createElement("h4", null, "Duration"), /*#__PURE__*/React.createElement("p", {
     className: "p"
   }, "Less than 2 months")), /*#__PURE__*/React.createElement("section", {
     className: "right"
@@ -470,7 +470,7 @@ const Portfolio = () => {
     className: "p"
   }, "Desktop Browser"), /*#__PURE__*/React.createElement("h4", null, "Team size"), /*#__PURE__*/React.createElement("p", {
     className: "p"
-  }, "1"), /*#__PURE__*/React.createElement("h4", null, "Overview"), /*#__PURE__*/React.createElement("p", null, " For my first portfolio website (second slide), I developed a very simple website using HTML5, CSS3 and JavaScript. I used fancybox to help showcase my featured projects. In terms of design, I envisioned a ", /*#__PURE__*/React.createElement("i", null, "Marvel's Iron Man"), " theme; I wanted to create a futuristic sci-fi UI for users while they navigate through my portfolio site. ", /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("br", null), "For my second portfolio website, my focus was to make a more modernized and clean portfolio site. In terms of development, this site is powered by HTML5, CSS3 & Flexbox, JavaScript, Jquery, NodeJs, ExpressJS and ReactJS. For the design, I wanted the look and feel of my new portfolio site to be crisp, clear, and easier on the eyes. My old portfolio site (Iron Man theme) felt very dark and a bit overwhelming as there was a lot going on in each page. Instead, with my new portfolio, information and content being presented is less compact and cluttered. I utilized negative space much better, offering more breathing room."))));
+  }, "1"), /*#__PURE__*/React.createElement("h4", null, "Overview"), /*#__PURE__*/React.createElement("p", null, " For my first portfolio website (second slide), I developed a very simple website using HTML5, CSS3 and JavaScript. I used fancybox to help showcase my featured projects. In terms of design, I envisioned a ", /*#__PURE__*/React.createElement("i", null, "Marvel's Iron Man"), " theme; I wanted to create a futuristic sci-fi UI for users while they navigate through my portfolio site. ", /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("br", null), "For my second portfolio website, my focus was to make a more modernized and clean portfolio site. In terms of development, this site is powered by HTML5, Sass, CSS3 & Flexbox, JavaScript, Jquery, NodeJs, ExpressJS and ReactJS. For the design, I wanted the look and feel of my new portfolio site to be crisp, clear, and easier on the eyes. My old portfolio site (Iron Man theme) felt very dark and a bit overwhelming as there was a lot going on in each page. Instead, with my new portfolio, information and content being presented is less compact and cluttered. I utilized negative space much better, offering more breathing room."))));
 };
 const Cookie = () => {
   return /*#__PURE__*/React.createElement("div", {

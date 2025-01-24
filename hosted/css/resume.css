@@ -1,129 +1,46 @@
-@import url('https://fonts.googleapis.com/css?family=Abel');
-
-html, body{
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    background-color: #fdfdfd;
-    font-family: 'Abel', sans-serif;
+@import url("https://fonts.googleapis.com/css?family=Abel");
+html, body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfdfd;
+  font-family: "Abel", sans-serif;
 }
 
-/* nav */
-nav{
-    width: 100%;
-    height: 60px;
-    background-color: #eee;
-    border-bottom: 1px solid #ccc;
-    box-shadow: 0 1px #aaa;
-    position: fixed;
-    z-index: 1;
-    top: 0px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+#resumeContent {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 20px;
 }
-
-#logo{
-    height: 50px;
-    width: 50px;
-    margin-top: 5px;
-    margin-left: 10px;
+#resumeContent h1 {
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
-
-nav ul{
-    display: flex;
-    list-style-type: none;
-    text-align: center;
-    padding: 0;
-    margin: 0;
+#resumeContent p {
+  display: inline-block;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
 }
-
-nav ul li{
-    font-size: 1.5em;
-    margin-left: 30px;
-    margin-right: 30px;
+#resumeContent .contactRight {
+  float: right;
 }
-
-nav ul li a{
-    text-decoration: none;
-    color: #555;
-    transition: opacity 0.2s cubic-bezier(0,0, 0.5, 1), border-bottom 0.3s ease-in-out;
-}
-
-nav ul li a:hover{
-    border-bottom: 1px solid #555;
-    color: #222;
-    filter: alpha(opacity=60);
-}
-
-nav ul li a.selected{
-    border-bottom: 1px solid #555;
-    color: #000;
-    filter: alpha(opacity=40);
-}
-
-nav #shortcutLinkedIn,
-nav #shortcutGithub{
-    width: 50px;
-    height: 50px;
-    margin-top: 5px;
-    margin-right: 10px;
-}
-
-/* Resume Content */
-#resumeContent{
-    width: 70%;
-    margin: 0 auto;
-    margin-top: 70px;
-}
-
-#resumeContent h1{
-    display: inline-block;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-#resumeContent p{
-    display: inline-block;
-    width: 100%;
-    font-weight: bold;
-    text-align: center;
-}
-
-#resumeContent .contactRight{
-    float: right;
-}
-
 #resumeContent li,
-#resumeContent span{
-    font-weight: bold;
+#resumeContent span {
+  font-weight: bold;
 }
-
 #resumeContent .eduinfo,
-#resumeContent #workExperience h5{
-    padding: 0;
-    margin: 0;
+#resumeContent #workExperience h5 {
+  padding: 0;
+  margin: 0;
+}
+#resumeContent #education h4,
+#resumeContent #workExperience h4 {
+  margin-bottom: 2px;
 }
 
-#resumeContent #education h4, 
-#resumeContent #workExperience h4{
-    margin-bottom: 2px;
-}
-
-/* footer */
-footer{
-    margin-top: 30px;
-    clear: both;
-    background-color: #eee;
-    border-top: 1px solid #ccc;
-    box-shadow: 0px -1px 0px #aaa;
-}
-  
-footer p{
-    margin: 0;
-    padding: 10px;
-    text-align: center;
-    color: #555;
-}
+/*# sourceMappingURL=resume.css.map */

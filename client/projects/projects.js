@@ -55,6 +55,9 @@ const AudioViz = () => {
         <div className="reactComponent">
             <div id="slider-container">
                 <div className="slides fade">
+                    <video controls><source src="assets/images/audiovizSample2.mp4" type="video/mp4"/></video>
+                </div>
+                <div className="slides fade">
                     <img src="assets/images/audioviz1.png" alt="Audio Vizualizer 1"/>
                 </div>
                 <div className="slides fade">
@@ -63,10 +66,7 @@ const AudioViz = () => {
                 <div className="slides fade">
                     <img id="img" src="assets/images/audioviz3.png" alt="Audio Vizualizer 3"/>
                 </div>
-                <div className="slides fade">
-                    <video controls><source src="assets/images/audiovizSample2.mp4" type="video/mp4"/></video>
-                </div>
-
+                
                 <a className="prev">&#10094;</a>
                 <a className="next">&#10095;</a>
             </div>
@@ -252,7 +252,7 @@ const Tweeter = () => {
             <div className="description">
                 <section className="left">
                     <h4>Tools used</h4>
-                    <p className="p">HTML5, CSS3, JavaScript, Jquery, NodeJs, ReactJS, ExpressJS, MongoDB, Redis</p>
+                    <p className="p">HTML5, CSS3, JavaScript, Jquery, (MERN) NodeJs, ReactJS, ExpressJS, MongoDB, Redis</p>
                     <h4>Role</h4>
                     <p className="p">Programmer & Designer (Full Stack Developer)</p>
                     <p> - Programmed and implemented core functionality of the app, such as 
@@ -456,11 +456,12 @@ const Portfolio = () => {
             <div className="description">
                 <section className="left">
                     <h4>Tools used</h4>
-                    <p className="p">HTML5, CSS3, JavaScript, Jquery, NodeJs, ExpressJS, ReactJS</p>
+                    <p className="p">HTML5, CSS3, Sass, JavaScript, Jquery, NodeJs, ExpressJS, ReactJS</p>
                     <h4>Role</h4>
                     <p className="p">Programmer & Designer</p>
                     <p> - Programmed core functionality of portfolio websites <br/>
                         - Designed style/look and feel of portfolio websites <br/>
+                        - Organized CSS3 styles and files through Sass pre-processor <br/>
                         - Designed website layout</p>
                     <h4>Duration</h4>
                     <p className="p">Less than 2 months</p>
@@ -476,7 +477,7 @@ const Portfolio = () => {
                         I used fancybox to help showcase my featured projects. In terms of design, I envisioned a <i>Marvel's Iron Man</i> theme; 
                         I wanted to create a futuristic sci-fi UI for users while they navigate through my portfolio site. <br/><br/>
                         For my second portfolio website, my focus was to make a more modernized and clean portfolio site. 
-                        In terms of development, this site is powered by HTML5, CSS3 & Flexbox, JavaScript, Jquery, NodeJs, ExpressJS and ReactJS. 
+                        In terms of development, this site is powered by HTML5, Sass, CSS3 & Flexbox, JavaScript, Jquery, NodeJs, ExpressJS and ReactJS. 
                         For the design, I wanted the look and feel of my new portfolio site to be crisp, clear, and easier on the eyes. 
                         My old portfolio site (Iron Man theme) felt very dark and a bit overwhelming as there was a lot going on in each page. 
                         Instead, with my new portfolio, information and content being presented is less compact and cluttered.
