@@ -1,0 +1,15 @@
+@use "colors";
+
+footer{
+    clear: both;
+    background-color: colors.$eee;
+    border-top: 1px solid colors.$ccc;
+    box-shadow: 0px -1px 0px colors.$aaa;
+
+    p{
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+        color: colors.$lightgray;
+    }
+}

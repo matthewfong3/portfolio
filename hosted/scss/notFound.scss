@@ -1,0 +1,19 @@
+@use "default";
+
+html, body{
+    @include default.defaultStyle();
+}
+
+#notFoundContent{
+    height: 100vh;
+    
+    h3{
+        margin: 0 auto;
+        padding: 0;
+        display: block;
+        width: 90%;
+        text-align: center;
+        position: relative;
+        top: 50%;
+    }
+}

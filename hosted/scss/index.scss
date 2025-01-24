@@ -1,0 +1,63 @@
+@use "default";
+
+%background-shared{
+    background-image: url("/assets/images/appContentWallpaper.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+html, body{
+    @include default.defaultStyle();
+}
+
+#content{
+    margin-top: 60px;
+    padding-top: 30px;
+
+    #aboutMe{
+        @extend %background-shared;
+        clear: both;
+        
+        .leftAboutMe,
+        .rightAboutMe{
+            width: 40%;
+        }
+
+        .leftAboutMe{
+            text-align: center;
+        }
+    }
+
+    .projects{
+        float: left;
+        width: 25%;
+        text-align: center;
+        margin: 0 auto;
+
+        img{
+            width: 200px;
+            height: 200px;
+        }
+
+        .fake-links{
+            cursor: pointer;
+        }
+    }
+
+    #contacts{
+        @extend %background-shared;
+        text-align: center;
+        clear: both;
+
+        #LinkedIn,
+        #Github{
+            width: 60px;
+            height: 60px;
+        }
+    }
+}
