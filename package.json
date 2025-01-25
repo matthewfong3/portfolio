@@ -24,7 +24,11 @@
     "watchIndexSassBundle": "sass.bat --watch ./hosted/scss/index.scss ./hosted/css/index.css",
     "watchNotFoundSassBundle": "sass.bat --watch ./hosted/scss/notFound.scss ./hosted/css/notFound.css",
     "watchProjectsSassBundle": "sass.bat --watch ./hosted/scss/projects.scss ./hosted/css/projects.css",
-    "watchResumeSassBundle": "sass.bat --watch ./hosted/scss/resume.scss ./hosted/css/resume.css"
+    "watchResumeSassBundle": "sass.bat --watch ./hosted/scss/resume.scss ./hosted/css/resume.css",
+    "watchMobileIndexSassBundle": "sass.bat --watch ./hosted/scss/mobileIndex.scss ./hosted/css/mobileIndex.css",
+    "watchMobileProjectsSassBundle": "sass.bat --watch ./hosted/scss/mobileProjects.scss ./hosted/css/mobileProjects.css",
+    "watchMobileResumeSassBundle": "sass.bat --watch ./hosted/scss/mobileResume.scss ./hosted/css/mobileResume.css",
+    "watchMobileNavSassBundle": "sass.bat --watch ./hosted/scss/mobileNav.scss ./hosted/css/mobileNav.css" 
   },
   "author": "Matthew Fong",
   "license": "ISC",

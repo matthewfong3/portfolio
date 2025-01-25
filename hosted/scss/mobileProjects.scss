@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px){
+    .reactComponent{
+        .description{
+            display: block;
+
+            .left h4, 
+            .right h4,
+            .left .p, 
+            .right .p{
+                text-align: center;
+            }
+
+            .left,
+            .right{
+	            width: 80%;
+                margin-top: 10%;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+
+            .right{
+                margin-top: 0;
+            }
+        }
+
+        #dotsDiv{
+            width: 100%;
+            text-align: center;
+
+            .dots{
+                width: 5px;
+                height: 5px;
+
+                &:hover{
+                    width: 10px;
+                    height: 10px;
+                }
+            }
+
+            .selected{
+                width: 10px;
+                height: 10px;
+            }
+        }
+    }
+}

@@ -1,0 +1,32 @@
+@media screen and (max-width: 768px){
+    #content{
+        padding-top: 60px;
+
+        #aboutMe{
+            background-image: none;
+            display: block;
+
+            .leftAboutMe,
+            .rightAboutMe{
+                width: 100%;
+            }
+
+            .rightAboutMe p{
+                margin: 10%;
+            }
+        }
+
+        .projects{
+            float: none;
+            width: 100%;
+        }
+
+        #contacts{
+            background-image: none;
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    }
+} 

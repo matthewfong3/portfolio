@@ -1,3 +1,5 @@
+@use "colors";
+
 #dropdown{
     display: none;
 }
@@ -13,10 +15,11 @@
         height: 50px;
         float: left;
         margin-top: 5px;
-    }
 
-    #dropdown:active{
-        content: url("../images/dropdownHover.png");
+        &:hover,
+        &:active{
+            content: url("../images/dropdownHover.png");
+        }
     }
 
     #navbarList{
@@ -26,13 +29,13 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
 
-    #navbarList li{
-        background-color: #eee;
-        border-bottom: 1px solid #555;
-        display: block;
-        padding: 15px 0;
-        margin: 0;
+        li{
+            background-color: colors.$eee;
+            border-bottom: 1px solid #555;
+            display: block;
+            padding: 15px 0;
+            margin: 0;
+        }
     }
 }
