@@ -9,7 +9,8 @@
   align-items: center;
 }
 
-html, body {
+html,
+body {
   width: 100vw;
   height: 100vh;
   margin: 0;
@@ -43,7 +44,13 @@ html, body {
   height: 200px;
 }
 #content .projects .fake-links {
-  cursor: pointer;
+  text-decoration: none;
+}
+#content .projects .fake-links:visited,
+#content .projects .fake-links:hover,
+#content .projects .fake-links:link,
+#content .projects .fake-links:active {
+  color: black;
 }
 #content #contacts {
   text-align: center;

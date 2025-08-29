@@ -1,6 +1,6 @@
 @use "default";
 
-%background-shared{
+%background-shared {
     background-image: url("/assets/images/appContentWallpaper.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,51 +11,59 @@
     align-items: center;
 }
 
-html, body{
+html,
+body {
     @include default.defaultStyle();
 }
 
-#content{
+#content {
     margin-top: 60px;
     padding-top: 30px;
 
-    #aboutMe{
+    #aboutMe {
         @extend %background-shared;
         clear: both;
-        
+
         .leftAboutMe,
-        .rightAboutMe{
+        .rightAboutMe {
             width: 40%;
         }
 
-        .leftAboutMe{
+        .leftAboutMe {
             text-align: center;
         }
     }
 
-    .projects{
+    .projects {
         float: left;
         width: 25%;
         text-align: center;
         margin: 0 auto;
 
-        img{
+        img {
             width: 200px;
             height: 200px;
         }
 
-        .fake-links{
-            cursor: pointer;
+        .fake-links {
+            text-decoration: none;
+        }
+
+        .fake-links:visited,
+        .fake-links:hover,
+        .fake-links:link,
+        .fake-links:active {
+            color: black;
         }
     }
 
-    #contacts{
+    #contacts {
         @extend %background-shared;
         text-align: center;
         clear: both;
 
         #LinkedIn,
-        #Github{
+        #Github {
             width: 60px;
             height: 60px;
         }
