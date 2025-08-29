@@ -1,40 +1,35 @@
 const setupProjectsLinks = () => {
-  const links = document.getElementsByClassName("fake-links");
+    const links = document.getElementsByClassName("fake-links");
 
-  for (const l of links) {
-    l.addEventListener("click", () => {
-      let data = { url: l.getAttribute("data-url") };
-      sendAjax("POST", "/getProject", data, redirect);
-    });
+    for (const l of links) {
+        l.addEventListener("mouseover", () => {
+            let image = l.firstElementChild;
+            let file = image.getAttribute("data-file");
 
-    l.addEventListener("mouseover", () => {
-      let image = l.firstElementChild;
-      let file = image.getAttribute("data-file");
+            image.src = `assets/images/${file}.png`;
+        });
 
-      image.src = `assets/images/${file}.png`;
-    });
+        l.addEventListener("mouseout", () => {
+            let image = l.firstElementChild;
+            let file = image.getAttribute("data-file");
 
-    l.addEventListener("mouseout", () => {
-      let image = l.firstElementChild;
-      let file = image.getAttribute("data-file");
-
-      image.src = `assets/images/${file}_gray.png`;
-    });
-  }
+            image.src = `assets/images/${file}_gray.png`;
+        });
+    }
 };
 
 const init = () => {
-  const respProps = {
-    showDropdown: false,
-  };
+    const respProps = {
+        showDropdown: false,
+    };
 
-  navOnHover();
+    navOnHover();
 
-  setupDropdown(respProps);
+    setupDropdown(respProps);
 
-  smoothScrolling(respProps);
+    smoothScrolling(respProps);
 
-  setupProjectsLinks();
+    setupProjectsLinks();
 };
 
 window.onload = init;

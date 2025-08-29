@@ -1,12 +1,6 @@
 const setupProjectsLinks = () => {
   const links = document.getElementsByClassName("fake-links");
   for (const l of links) {
-    l.addEventListener("click", () => {
-      let data = {
-        url: l.getAttribute("data-url")
-      };
-      sendAjax("POST", "/getProject", data, redirect);
-    });
     l.addEventListener("mouseover", () => {
       let image = l.firstElementChild;
       let file = image.getAttribute("data-file");
